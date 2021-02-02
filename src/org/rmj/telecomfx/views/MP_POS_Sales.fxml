@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+<?import org.controlsfx.control.textfield.CustomTextField?>
+
+<AnchorPane id="AnchorPane" prefHeight="720.0" prefWidth="1360.0" stylesheets="@../styles/main.css" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <StackPane AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="683.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <BorderPane prefHeight="200.0" prefWidth="200.0">
+               <center>
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #595959;" BorderPane.alignment="CENTER">
+                     <children>
+                        <AnchorPane prefHeight="597.0" prefWidth="677.0">
+                           <children>
+                              <AnchorPane fx:id="acFilter" layoutX="1.0" layoutY="3.0" prefHeight="45.0" prefWidth="549.0" style="-fx-background-color: #B3B6B7;" AnchorPane.leftAnchor="1.0" AnchorPane.rightAnchor="127.0" AnchorPane.topAnchor="3.0">
+                                 <children>
+                                    <CustomTextField fx:id="txtSeeks50" layoutX="4.0" layoutY="10.0" prefHeight="27.0" prefWidth="541.0" promptText="Press F3 to search by CLIENT NAME or Enter for SALES INVOICE" />
+                                 </children></AnchorPane>
+                              <Button fx:id="btnClearFilter" layoutX="557.0" layoutY="3.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="122.0" text="CLEAR FILTER" textFill="WHITE" AnchorPane.rightAnchor="2.0">
+                                 <font>
+                                    <Font name="Arial Rounded MT Bold" size="12.0" />
+                                 </font>
+                                 <graphic>
+                                    <FontAwesomeIconView glyphName="REFRESH" size="20" />
+                                 </graphic>
+                              </Button>
+                              <AnchorPane fx:id="acMasterField" layoutX="2.0" layoutY="299.0" prefHeight="255.0" prefWidth="389.0" style="-fx-background-color: #B3B6B7;" AnchorPane.bottomAnchor="-3.0" AnchorPane.leftAnchor="1.0">
+                                 <children>
+                                    <GridPane layoutX="6.0" layoutY="9.0" prefHeight="249.0" prefWidth="378.0" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="5.0" AnchorPane.topAnchor="0.0">
+                                      <columnConstraints>
+                                          <ColumnConstraints fillWidth="false" hgrow="SOMETIMES" maxWidth="1000.0" minWidth="10.0" prefWidth="80.0" />
+                                        <ColumnConstraints fillWidth="false" hgrow="SOMETIMES" maxWidth="1000.0" minWidth="10.0" prefWidth="600.0" />
+                                          <ColumnConstraints fillWidth="false" hgrow="SOMETIMES" maxWidth="1000.0" minWidth="10.0" prefWidth="600.0" />
+                                          <ColumnConstraints fillWidth="false" hgrow="SOMETIMES" maxWidth="1000.0" minWidth="10.0" prefWidth="80.0" />
+                                      </columnConstraints>
+                                      <rowConstraints>
+                                          <RowConstraints minHeight="10.0" prefHeight="28.0" vgrow="SOMETIMES" />
+                                          <RowConstraints minHeight="10.0" prefHeight="28.0" vgrow="SOMETIMES" />
+                                          <RowConstraints minHeight="10.0" prefHeight="28.0" vgrow="SOMETIMES" />
+                                          <RowConstraints minHeight="10.0" prefHeight="28.0" vgrow="SOMETIMES" />
+                                        <RowConstraints minHeight="10.0" prefHeight="28.0" vgrow="SOMETIMES" />
+                                          <RowConstraints minHeight="10.0" prefHeight="28.0" vgrow="SOMETIMES" />
+                                          <RowConstraints minHeight="10.0" prefHeight="28.0" vgrow="SOMETIMES" />
+                                          <RowConstraints minHeight="10.0" prefHeight="28.0" vgrow="SOMETIMES" />
+                                          <RowConstraints minHeight="10.0" prefHeight="28.0" vgrow="SOMETIMES" />
+                                      </rowConstraints>
+                                       <children>
+                                          <TextField fx:id="txtField03" disable="true" editable="false" promptText="Transaction Date" GridPane.columnIndex="1" />
+                                          <CustomTextField fx:id="txtField04" prefHeight="27.0" prefWidth="422.0" promptText="Client Name(Quick Search)" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.rowIndex="1" />
+                                          <TextArea fx:id="txtAddress" disable="true" prefHeight="58.0" prefWidth="425.0" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.rowIndex="2" GridPane.rowSpan="2" />
+                                          <CustomTextField fx:id="txtField07" prefHeight="27.0" prefWidth="417.0" promptText="Sales Person(Quick Search)" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.rowIndex="4" />
+                                          <TextField fx:id="txtField06" prefHeight="17.0" prefWidth="378.0" promptText="Remarks" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.rowIndex="5" />
+                                          <TextField fx:id="txtField11" alignment="CENTER_RIGHT" editable="false" prefHeight="27.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="6" />
+                                          <TextField fx:id="txtField12" alignment="CENTER_RIGHT" editable="false" prefHeight="27.0" prefWidth="208.0" GridPane.columnIndex="2" GridPane.rowIndex="7" />
+                                          <TextField fx:id="txtField13" alignment="CENTER_RIGHT" disable="true" prefHeight="27.0" prefWidth="202.0" GridPane.columnIndex="2" GridPane.rowIndex="8" />
+                                          <Label fx:id="lblFreight" alignment="CENTER_RIGHT" prefHeight="17.0" prefWidth="216.0" text="Freight:" GridPane.columnIndex="1" GridPane.rowIndex="8">
+                                             <GridPane.margin>
+                                                <Insets right="10.0" />
+                                             </GridPane.margin>
+                                          </Label>
+                                          <Label alignment="CENTER_RIGHT" prefHeight="17.0" prefWidth="206.0" text="Discount(%):" GridPane.columnIndex="1" GridPane.rowIndex="6">
+                                             <GridPane.margin>
+                                                <Insets right="10.0" />
+                                             </GridPane.margin>
+                                          </Label>
+                                          <Label alignment="CENTER_RIGHT" prefHeight="17.0" prefWidth="248.0" text="Add. Disc.:" GridPane.columnIndex="1" GridPane.rowIndex="7">
+                                             <GridPane.margin>
+                                                <Insets right="10.0" />
+                                             </GridPane.margin>
+                                          </Label>
+                                       </children>
+                                    </GridPane>
+                                 </children></AnchorPane>
+                              <AnchorPane fx:id="acMasterLable" layoutX="392.0" layoutY="299.0" prefHeight="256.0" prefWidth="284.0" style="-fx-background-color: #B3B6B7;" AnchorPane.bottomAnchor="-3.0" AnchorPane.leftAnchor="392.0" AnchorPane.rightAnchor="1.0">
+                                 <children>
+                                    <GridPane layoutX="5.0" layoutY="12.0" prefHeight="222.0" prefWidth="267.0">
+                                       <columnConstraints>
+                                          <ColumnConstraints hgrow="SOMETIMES" maxWidth="144.0" minWidth="10.0" prefWidth="127.0" />
+                                          <ColumnConstraints halignment="RIGHT" hgrow="SOMETIMES" maxWidth="130.0" minWidth="10.0" prefWidth="130.0" />
+                                       </columnConstraints>
+                                       <rowConstraints>
+                                          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                          <RowConstraints minHeight="10.0" prefHeight="25.0" vgrow="SOMETIMES" />
+                                          <RowConstraints minHeight="0.0" prefHeight="2.0" vgrow="SOMETIMES" />
+                                          <RowConstraints minHeight="10.0" prefHeight="25.0" vgrow="SOMETIMES" />
+                                          <RowConstraints minHeight="10.0" prefHeight="25.0" vgrow="SOMETIMES" />
+                                          <RowConstraints minHeight="0.0" prefHeight="2.0" vgrow="SOMETIMES" />
+                                          <RowConstraints minHeight="10.0" prefHeight="25.0" vgrow="SOMETIMES" />
+                                          <RowConstraints minHeight="10.0" prefHeight="25.0" vgrow="SOMETIMES" />
+                                          <RowConstraints minHeight="0.0" prefHeight="2.0" vgrow="SOMETIMES" />
+                                          <RowConstraints minHeight="10.0" prefHeight="40.0" valignment="CENTER" vgrow="SOMETIMES" />
+                                       </rowConstraints>
+                                       <children>
+                                          <Separator prefWidth="200.0" style="-fx-background-color: black;" GridPane.rowIndex="3" />
+                                          <Separator prefWidth="200.0" style="-fx-background-color: black;" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                                          <Separator prefWidth="200.0" style="-fx-background-color: black;" GridPane.rowIndex="6" />
+                                          <Separator prefWidth="200.0" style="-fx-background-color: black;" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+                                          <Separator prefWidth="200.0" GridPane.rowIndex="9" />
+                                          <Separator prefHeight="35.0" prefWidth="127.0" valignment="BOTTOM" GridPane.rowIndex="10">
+                                             <GridPane.margin>
+                                                <Insets />
+                                             </GridPane.margin></Separator>
+                                          <Separator prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="9" />
+                                          <Separator prefHeight="35.0" prefWidth="127.0" valignment="BOTTOM" GridPane.columnIndex="1" GridPane.rowIndex="10" />
+                                          <Label text="Sub-Total:" GridPane.rowIndex="2">
+                                             <font>
+                                                <Font name="Arial Bold" size="12.0" />
+                                             </font></Label>
+                                          <Label text="Price Exclusive of VAT:" GridPane.rowIndex="4">
+                                             <font>
+                                                <Font name="Arial Bold" size="12.0" />
+                                             </font></Label>
+                                          <Label text="less: Discount" textFill="RED" GridPane.rowIndex="5">
+                                             <font>
+                                                <Font name="Arial Bold" size="12.0" />
+                                             </font></Label>
+                                          <Label text="Net Sale w/o VAT:" GridPane.rowIndex="7">
+                                             <font>
+                                                <Font name="Arial Bold" size="12.0" />
+                                             </font></Label>
+                                          <Label text="Add VAT:" GridPane.rowIndex="8">
+                                             <font>
+                                                <Font name="Arial Bold" size="12.0" />
+                                             </font></Label>
+                                          <Label prefHeight="15.0" prefWidth="155.0" text="Total Amount Due:" GridPane.rowIndex="10">
+                                             <font>
+                                                <Font name="Arial Bold" size="12.0" />
+                                             </font>
+                                             <GridPane.margin>
+                                                <Insets />
+                                             </GridPane.margin></Label>
+                                          <Label fx:id="lblAmountDue" alignment="CENTER_RIGHT" prefHeight="57.0" prefWidth="130.0" text="999,999.99" textFill="GREEN" GridPane.columnIndex="1" GridPane.rowIndex="10">
+                                             <font>
+                                                <Font name="Arial Bold" size="24.0" />
+                                             </font>
+                                          </Label>
+                                          <Label fx:id="lblSubTotal" alignment="CENTER_RIGHT" prefHeight="15.0" prefWidth="164.0" text="2,900.00" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                                             <font>
+                                                <Font name="Arial" size="12.0" />
+                                             </font></Label>
+                                          <Label fx:id="lblVatExclsv" alignment="CENTER_RIGHT" prefHeight="15.0" prefWidth="162.0" text="2990.00" GridPane.columnIndex="1" GridPane.rowIndex="4">
+                                             <font>
+                                                <Font name="Arial" size="12.0" />
+                                             </font></Label>
+                                          <Label fx:id="lblDiscount" alignment="CENTER_RIGHT" prefHeight="15.0" prefWidth="153.0" text="0.00" textFill="RED" GridPane.columnIndex="1" GridPane.rowIndex="5">
+                                             <font>
+                                                <Font name="Arial" size="12.0" />
+                                             </font></Label>
+                                          <Label fx:id="lblNetSales" alignment="CENTER_RIGHT" prefHeight="15.0" prefWidth="149.0" text="0.00" GridPane.columnIndex="1" GridPane.rowIndex="7">
+                                             <font>
+                                                <Font name="Arial" size="12.0" />
+                                             </font></Label>
+                                          <Label fx:id="lblAddVat" alignment="CENTER_RIGHT" prefHeight="15.0" prefWidth="146.0" text="0.00" GridPane.columnIndex="1" GridPane.rowIndex="8">
+                                             <font>
+                                                <Font name="Arial" size="12.0" />
+                                             </font></Label>
+                                          <Label fx:id="lblTranStat" alignment="CENTER" prefHeight="25.0" prefWidth="217.0" style="-fx-background-color: #3f3f3f;" text="UNKNOWN" textFill="WHITE" GridPane.columnIndex="1">
+                                             <font>
+                                                <Font name="System Bold" size="16.0" />
+                                             </font>
+                                          </Label>
+                                          <Label fx:id="lblTransNox" alignment="CENTER" prefHeight="25.0" prefWidth="200.0" style="-fx-background-color: #3f3f3f;" text="H0021800009" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                                             <font>
+                                                <Font size="16.0" />
+                                             </font></Label>
+                                          <Label text="Transaction No:" GridPane.rowIndex="1">
+                                             <font>
+                                                <Font name="Arial Bold" size="12.0" />
+                                             </font>
+                                          </Label>
+                                          <Label text="Transaction Status:">
+                                             <font>
+                                                <Font name="Arial Bold" size="12.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </GridPane>
+                                 </children></AnchorPane>
+                              <AnchorPane layoutX="1.0" layoutY="51.0" prefHeight="277.0" prefWidth="674.0" style="-fx-background-color: #B3B6B7;" AnchorPane.bottomAnchor="254.0" AnchorPane.leftAnchor="1.0" AnchorPane.rightAnchor="2.0" AnchorPane.topAnchor="51.0">
+                                 <children>
+                                    <TableView fx:id="tblOrders" layoutX="14.0" layoutY="14.0" onMouseClicked="#tblOrders_Click" prefHeight="200.0" prefWidth="200.0" stylesheets="@../styles/tableview.css" AnchorPane.bottomAnchor="1.0" AnchorPane.leftAnchor="1.0" AnchorPane.rightAnchor="1.0" AnchorPane.topAnchor="1.0">
+                                      <columns>
+                                        <TableColumn fx:id="order01" prefWidth="75.0" text="No." />
+                                        <TableColumn fx:id="order02" prefWidth="75.0" text="Order No." />
+                                          <TableColumn fx:id="order03" prefWidth="148.0" text="Customer Name" />
+                                          <TableColumn fx:id="order04" prefWidth="148.0" text="Amount" />
+                                          <TableColumn fx:id="order05" prefWidth="148.0" text="Status" />
+                                      </columns>
+                                    </TableView>
+                                 </children></AnchorPane>
+                           </children></AnchorPane>
+                     </children>
+                  </StackPane>
+               </center>
+               <top>
+                  <AnchorPane prefHeight="89.0" prefWidth="677.0" style="-fx-background-color: #f37024;" BorderPane.alignment="CENTER">
+                     <children>
+                        <Label fx:id="lblUser" layoutX="470.0" layoutY="71.0" text="Cashier: Michael Cuison Jr." textFill="WHITE" AnchorPane.rightAnchor="10.0">
+                           <font>
+                              <Font name="Arial Bold" size="15.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER_RIGHT" layoutX="499.0" layoutY="3.0" prefHeight="23.0" prefWidth="183.0" text="RMJ Telecom Inc." textFill="WHITE" AnchorPane.rightAnchor="9.0">
+                           <font>
+                              <Font name="Arial Bold Italic" size="21.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="lblBranch" alignment="CENTER_RIGHT" layoutX="531.0" layoutY="30.0" prefHeight="16.0" prefWidth="176.0" text="RMJ Telecom - Dagupan" textFill="WHITE" AnchorPane.rightAnchor="12.0">
+                           <font>
+                              <Font name="Arial" size="13.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="lblTime" alignment="CENTER" layoutX="176.0" layoutY="-4.0" prefHeight="57.0" prefWidth="289.0" text="12:59" textAlignment="JUSTIFY" textFill="WHITE">
+                           <font>
+                              <Font size="40.0" />
+                           </font>
+                           <effect>
+                              <DropShadow />
+                           </effect>
+                        </Label>
+                        <Label fx:id="lblDay" alignment="CENTER" contentDisplay="CENTER" layoutX="-1.0" layoutY="68.0" prefHeight="19.0" prefWidth="136.0" text="Saturday" textFill="WHITE" AnchorPane.leftAnchor="-1.0">
+                           <effect>
+                              <DropShadow />
+                           </effect>
+                           <font>
+                              <Font size="13.0" />
+                           </font>
+                        </Label>
+                        <Separator layoutX="3.0" layoutY="42.0" prefHeight="3.0" prefWidth="148.0" />
+                        <Label fx:id="lblDate" alignment="CENTER" layoutX="-1.0" layoutY="51.0" prefHeight="19.0" prefWidth="150.0" text="November 11, 2018" textFill="WHITE" AnchorPane.leftAnchor="-1.0">
+                           <effect>
+                              <DropShadow />
+                           </effect>
+                           <font>
+                              <Font size="13.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="lblPosDate" layoutX="87.0" layoutY="11.0" prefHeight="25.0" prefWidth="103.0" text="20200204" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="lblDate11" alignment="CENTER" layoutX="2.0" layoutY="11.0" prefHeight="25.0" prefWidth="81.0" text="POS Date:" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="lblSeconds" alignment="CENTER" layoutX="175.0" layoutY="38.0" prefHeight="41.0" prefWidth="289.0" text="58 PM" textAlignment="JUSTIFY" textFill="WHITE">
+                           <font>
+                              <Font size="35.0" />
+                           </font>
+                           <effect>
+                              <DropShadow />
+                           </effect>
+                        </Label>
+                     </children></AnchorPane>
+               </top>
+               <bottom>
+                  <AnchorPane prefHeight="37.0" prefWidth="677.0" style="-fx-background-color: #262626;" BorderPane.alignment="CENTER">
+                     <children>
+                        <Button fx:id="btnSave" layoutX="3.0" layoutY="3.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="132.0" text="SAVE" textFill="WHITE" AnchorPane.bottomAnchor="4.0" AnchorPane.leftAnchor="3.0" AnchorPane.topAnchor="3.0">
+                           <font>
+                              <Font name="Arial Black" size="12.0" />
+                           </font>
+                           <graphic>
+                              <FontAwesomeIconView glyphName="FLOPPY_ALT" size="15" />
+                           </graphic>
+                        </Button>
+                        <Button fx:id="btnSearch" layoutX="126.0" layoutY="3.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="132.0" text="SEARCH" textFill="WHITE" AnchorPane.bottomAnchor="4.0" AnchorPane.leftAnchor="138.0" AnchorPane.topAnchor="3.0">
+                           <font>
+                              <Font name="Arial Black" size="12.0" />
+                           </font>
+                           <graphic>
+                              <FontAwesomeIconView glyphName="NEUTER" size="15" />
+                           </graphic>
+                        </Button>
+                        <Button fx:id="btnDelItem" layoutX="249.0" layoutY="3.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="132.0" text="DEL. ITEM" textFill="WHITE" AnchorPane.bottomAnchor="4.0" AnchorPane.leftAnchor="273.0" AnchorPane.topAnchor="3.0">
+                           <font>
+                              <Font name="Arial Black" size="12.0" />
+                           </font>
+                           <graphic>
+                              <FontAwesomeIconView glyphName="TRASH" size="20" />
+                           </graphic>
+                        </Button>
+                        <Button fx:id="btnReset" layoutX="373.0" layoutY="3.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="132.0" text="CANCEL" textFill="WHITE" AnchorPane.bottomAnchor="4.0" AnchorPane.leftAnchor="408.0" AnchorPane.topAnchor="3.0">
+                           <font>
+                              <Font name="Arial Black" size="12.0" />
+                           </font>
+                           <graphic>
+                              <FontAwesomeIconView glyphName="TIMES" size="15" />
+                           </graphic>
+                        </Button>
+                        <Button fx:id="btnVoid" layoutX="543.0" layoutY="2.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="132.0" text="VOID" textFill="WHITE" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="543.0" AnchorPane.topAnchor="2.0">
+                           <font>
+                              <Font name="Arial Black" size="12.0" />
+                           </font>
+                           <graphic>
+                              <FontAwesomeIconView glyphName="TRASH" size="20" />
+                           </graphic>
+                        </Button>
+                        <Button fx:id="btnPay" layoutX="408.0" layoutY="2.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="132.0" text="PAY" textFill="WHITE" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="408.0" AnchorPane.topAnchor="2.0">
+                           <font>
+                              <Font name="Arial Black" size="12.0" />
+                           </font>
+                           <graphic>
+                              <FontAwesomeIconView glyphName="CREDIT_CARD_ALT" size="15" />
+                           </graphic>
+                        </Button>
+                        <Button fx:id="btnUpdate" layoutX="273.0" layoutY="2.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="132.0" text="UPDATE" textFill="WHITE" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="273.0" AnchorPane.topAnchor="2.0">
+                           <font>
+                              <Font name="Arial Black" size="12.0" />
+                           </font>
+                           <graphic>
+                              <FontAwesomeIconView glyphName="EYEDROPPER" size="15" />
+                           </graphic>
+                        </Button>
+                        <Button fx:id="btnNew" layoutX="138.0" layoutY="2.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="132.0" text="NEW" textFill="WHITE" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="138.0" AnchorPane.topAnchor="2.0">
+                           <font>
+                              <Font name="Arial Black" size="12.0" />
+                           </font>
+                           <graphic>
+                              <FontAwesomeIconView glyphName="CLONE" size="15" />
+                           </graphic>
+                        </Button>
+                        <Button fx:id="btnBrowse" layoutX="3.0" layoutY="2.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="132.0" text="BROWSE" textFill="WHITE" AnchorPane.leftAnchor="3.0">
+                           <font>
+                              <Font name="Arial Black" size="12.0" />
+                           </font>
+                           <graphic>
+                              <FontAwesomeIconView glyphName="FOLDER" size="15" />
+                           </graphic>
+                        </Button>
+                     </children>
+                  </AnchorPane>
+               </bottom>
+            </BorderPane>
+         </children>
+      </StackPane>
+      <StackPane prefHeight="150.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="677.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: black;">
+               <children>
+                  <BorderPane prefHeight="700.0" prefWidth="694.0" style="-fx-background-color: #262626;">
+                     <top>
+                        <AnchorPane prefHeight="66.0" prefWidth="683.0" style="-fx-background-color: BLACK;" BorderPane.alignment="CENTER">
+                           <children>
+                              <GridPane layoutX="157.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                <columnConstraints>
+                                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="448.0" minWidth="10.0" prefWidth="353.0" />
+                                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="360.0" minWidth="10.0" prefWidth="330.0" />
+                                </columnConstraints>
+                                <rowConstraints>
+                                  <RowConstraints maxHeight="1.7976931348623157E308" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                  <RowConstraints maxHeight="20.0" minHeight="10.0" prefHeight="20.0" vgrow="SOMETIMES" />
+                                    <RowConstraints maxHeight="20.0" minHeight="10.0" prefHeight="20.0" vgrow="SOMETIMES" />
+                                </rowConstraints>
+                                 <children>
+                                    <MenuBar fx:id="menuBar" prefHeight="25.0" prefWidth="141.0">
+                                      <menus>
+                                        <Menu mnemonicParsing="false" text="File">
+                                          <items>
+                                                <MenuItem fx:id="mnuEndShift" mnemonicParsing="false" text="End Shift" />
+                                                <MenuItem fx:id="mnuNewDay" mnemonicParsing="false" text="Declare New Day" />
+                                                <MenuItem fx:id="mnuCashDrawer" mnemonicParsing="false" text="Cash Drawer" />
+                                            <MenuItem fx:id="mnuLogout" mnemonicParsing="false" text="Logout Account" />
+                                          </items>
+                                        </Menu>
+                                        <Menu mnemonicParsing="false" text="Administrator">
+                                          <items>
+                                                <MenuItem fx:id="mnuCancelInvoice" mnemonicParsing="false" text="Cancel Invoice" />
+                                                <MenuItem fx:id="mnuReprintInvoice" mnemonicParsing="false" text="Reprint Invoice" />
+                                          </items>
+                                        </Menu>
+                                      </menus>
+                                    </MenuBar>
+                                    <Label fx:id="lblField00" alignment="CENTER" prefHeight="39.0" prefWidth="341.0" text="TelecomFX POS System v1.0" textFill="WHITE" GridPane.columnIndex="1">
+                                       <font>
+                                          <Font name="System Bold Italic" size="12.0" />
+                                       </font>
+                                    </Label>
+                                    <Label fx:id="lblField02" prefHeight="15.0" prefWidth="364.0" text="Accreditation No: XXXXXXXXXXXXXXXXXXXX" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                                       <font>
+                                          <Font name="Arial" size="11.0" />
+                                       </font>
+                                    </Label>
+                                    <Label fx:id="lblField01" prefHeight="14.0" prefWidth="358.0" text="Machine No: XXXXXXXXXXXXXXXXX" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                                       <font>
+                                          <Font name="Arial" size="11.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </GridPane>
+                           </children>
+                        </AnchorPane>
+                     </top>
+                     <center>
+                        <AnchorPane fx:id="acDetail" prefHeight="634.0" prefWidth="683.0" style="-fx-background-color: black;" BorderPane.alignment="CENTER">
+                           <children>
+                              <AnchorPane fx:id="acItem" layoutX="1.0" layoutY="33.0" prefHeight="37.0" prefWidth="681.0" style="-fx-background-color: #595959;" AnchorPane.leftAnchor="1.0" AnchorPane.rightAnchor="1.0" AnchorPane.topAnchor="0.0">
+                                 <children>
+                                    <CustomTextField fx:id="txtSeeks51" layoutX="-7.0" layoutY="11.0" promptText="Press F3 to search by DESCRIPTION or Enter for BAR CODE" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="5.0" />
+                                 </children></AnchorPane>
+                              <AnchorPane layoutX="1.0" layoutY="71.0" prefHeight="573.0" prefWidth="681.0" style="-fx-background-color: #B3B6B7;" stylesheets="@../styles/tableview.css" AnchorPane.bottomAnchor="3.0" AnchorPane.leftAnchor="1.0" AnchorPane.rightAnchor="1.0" AnchorPane.topAnchor="39.0">
+                                 <children>
+                                    <TableView fx:id="tblSalesMaster" layoutX="1.0" layoutY="35.0" onMouseClicked="#tblSales_MasterClick" prefHeight="393.0" prefWidth="679.0" style="-fx-background-color: #B3B6B7;" stylesheets="@../styles/tableview.css" AnchorPane.bottomAnchor="1.0" AnchorPane.leftAnchor="1.0" AnchorPane.rightAnchor="1.0" AnchorPane.topAnchor="1.0">
+                                      <columns>
+                                          <TableColumn fx:id="index01" prefWidth="40.0" resizable="false" sortable="false" text="No." />
+                                        <TableColumn fx:id="index02" editable="false" prefWidth="130.0" resizable="false" sortable="false" text="Item Code" />
+                                        <TableColumn fx:id="index03" editable="false" prefWidth="130.0" resizable="false" sortable="false" text="Description" />
+                                          <TableColumn fx:id="index04" editable="false" resizable="false" sortable="false" text="Unit Price" />
+                                          <TableColumn fx:id="index05" prefWidth="50.0" resizable="false" sortable="false" text="QOH" />
+                                          <TableColumn fx:id="index06" editable="false" prefWidth="50.0" resizable="false" text="Order" />
+                                          <TableColumn fx:id="index07" editable="false" prefWidth="60.0" resizable="false" sortable="false" text="Disc(%)" />
+                                          <TableColumn fx:id="index08" prefWidth="60.0" resizable="false" sortable="false" text="Add Disc" />
+                                          <TableColumn fx:id="index09" editable="false" resizable="false" sortable="false" text="Total" />
+                                      </columns>
+                                    </TableView>
+                                 </children></AnchorPane>
+                           </children></AnchorPane>
+                     </center>
+                  </BorderPane>
+               </children>
+            </StackPane>
+         </children></StackPane>
+   </children>
+</AnchorPane>

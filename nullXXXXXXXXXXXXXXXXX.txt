@@ -1,0 +1,939 @@
+     ABC Telecom - Dagupan Central      
+      Business Name, Incorporated       
+              Perez Blvd.               
+        Dagupan City, Pangasinan        
+     VAT REG TIN: XXX-XXX-XXX-XXXXX     
+         MIN: XXXXXXXXXXXXXXXXX         
+         Serial No: XXXXXXXXXX          
+
+             SALES INVOICE              
+
+****************************************
+QTY DESCRIPTION      UPRICE    AMOUNT
+  2 200000000001    4000.00   8000.00V
+    SUPER CHARGE POWER BANK (40W)
+  1 200000000002    1000.00   1000.00V
+    GALAXY BOOK COVER TAB S4
+  1 200000000003    8990.00   8990.00V
+    FREEBUDS 3
+  1 200000000007   15000.00  15000.00V
+    SAMPLE ITEM 2
+----------------------------------------
+ No. of Items: 5
+
+ Sub-Total                     32990.00
+                          -------------
+ Price Exclusive of VAT        29455.36
+                          -------------
+ Net Sales (w/o VAT)           29455.36
+ Add: VAT                       3534.64
+                          -------------
+ TOTAL AMOUNT DUE :            32990.00
+
+ Cash                          33000.00
+
+ CHANGE           :               10.00
+----------------------------------------
+
+ VAT Exempt Sales                  0.00
+ Zero-Rated Sales                  0.00
+ VATable Sales                 29455.36
+ VAT Amount                     3534.64
+
+ Cust Name: Cuison, Bernard Ramos       
+ Address:                               
+ TIN:                                   
+ Bus. Style:                            
+
+ Cashier: CUISON, MICHAEL TORRES        
+ Terminal No.: 01                       
+ Transaction No.: C0010120000001        
+ SI No.: 0000000001                     
+ Date/Time: 2020-07-15 11:18:35            
+****************************************
+
+      This is your SALES INVOICE.       
+   Thank you, and please come again.    
+
+         RMJ Business Solutions         
+            021 Pogo grande             
+     Dagupan City, Pangasinan 2400      
+     VAT REG TIN: XXX-XXX-XXX-XXXXX     
+    ACCR NO.: XXXXXXXXXXXXXXXXXXXXXX    
+        Date Issued: XXXX-XX-XX         
+        Valid Until: XXXX-XX-XX         
+    PTU NO.: XXXXXXXXXXXXXXXXXXXXXX     
+        Date Issued: XXXX-XX-XX         
+        Valid Until: XXXX-XX-XX         
+
+      THIS INVOICE SHALL BE VALID       
+   FOR FIVE(5) YEARS FROM THE DATE OF   
+           THE PERMT TO USE.            
+       ----- END OF RECEIPT -----       
+     ABC Telecom - Dagupan Central      
+      Business Name, Incorporated       
+              Perez Blvd.               
+        Dagupan City, Pangasinan        
+     VAT REG TIN: XXX-XXX-XXX-XXXXX     
+         MIN: XXXXXXXXXXXXXXXXX         
+         Serial No: XXXXXXXXXX          
+
+             SALES INVOICE              
+
+****************************************
+QTY DESCRIPTION      UPRICE    AMOUNT
+  1 200000000001    4000.00   4000.00V
+    SUPER CHARGE POWER BANK (40W)
+  1 200000000002    1000.00   1000.00V
+    GALAXY BOOK COVER TAB S4
+  1 200000000003    8990.00   8990.00V
+    FREEBUDS 3
+  1 200000000006   12000.00  12000.00V
+    SAMPLE ITEM
+  1 200000000007   15000.00  15000.00V
+    SAMPLE ITEM 2
+----------------------------------------
+ No. of Items: 5
+
+ Sub-Total                     40990.00
+                          -------------
+ Price Exclusive of VAT        36598.21
+ Less: 10.0% Discount           3659.82
+                          -------------
+ Net Sales (w/o VAT)           32938.39
+ Add: VAT                       3952.61
+                          -------------
+ TOTAL AMOUNT DUE :            36891.00
+
+ Cash                          37000.00
+
+ CHANGE           :              109.00
+----------------------------------------
+
+ VAT Exempt Sales                  0.00
+ Zero-Rated Sales                  0.00
+ VATable Sales                 32938.39
+ VAT Amount                     3952.61
+
+ Cust Name: Molina, Kairos Jil Ibarra   
+ Address:                               
+ TIN:                                   
+ Bus. Style:                            
+
+ Cashier: CUISON, MICHAEL TORRES        
+ Terminal No.: 01                       
+ Transaction No.: C0010120000002        
+ SI No.: 0000000002                     
+ Date/Time: 2020-07-15 11:21:46            
+****************************************
+
+      This is your SALES INVOICE.       
+   Thank you, and please come again.    
+
+         RMJ Business Solutions         
+            021 Pogo grande             
+     Dagupan City, Pangasinan 2400      
+     VAT REG TIN: XXX-XXX-XXX-XXXXX     
+    ACCR NO.: XXXXXXXXXXXXXXXXXXXXXX    
+        Date Issued: XXXX-XX-XX         
+        Valid Until: XXXX-XX-XX         
+    PTU NO.: XXXXXXXXXXXXXXXXXXXXXX     
+        Date Issued: XXXX-XX-XX         
+        Valid Until: XXXX-XX-XX         
+
+      THIS INVOICE SHALL BE VALID       
+   FOR FIVE(5) YEARS FROM THE DATE OF   
+           THE PERMT TO USE.            
+       ----- END OF RECEIPT -----       
+
+----------------------------------------
+     ABC Telecom - Dagupan Central      
+      Business Name, Incorporated       
+              Perez Blvd.               
+        Dagupan City, Pangasinan        
+     VAT REG TIN: XXX-XXX-XXX-XXXXX     
+         MIN: XXXXXXXXXXXXXXXXX         
+         Serial No: XXXXXXXXXX          
+
+             SALES INVOICE              
+
+****************************************
+QTY DESCRIPTION      UPRICE    AMOUNT
+  1 200000000004    5999.00   5999.00V
+    OPENLINE W/ WARRANTY
+     HUAWEI/Y5 Lite (1GB + 6GB)/Blue    
+     SN: 868797048116000                
+  1 200000000005   10999.00  10999.00V
+    OPENLINE W/ WARRANTY
+     VIVO/Y9 (4GB + 128GB)/White        
+     SN: 868797048117000                
+----------------------------------------
+ No. of Items: 2
+
+ Sub-Total                     16998.00
+                          -------------
+ Price Exclusive of VAT        15176.79
+ Less: Discount                   89.29
+                          -------------
+ Net Sales (w/o VAT)           15087.50
+ Add: VAT                       1810.50
+                          -------------
+ TOTAL AMOUNT DUE :            16898.00
+
+ Credit Card                   16898.00
+
+ CHANGE           :                0.00
+----------------------------------------
+
+ VAT Exempt Sales                  0.00
+ Zero-Rated Sales                  0.00
+ VATable Sales                 15087.50
+ VAT Amount                     1810.50
+
+ Cust Name: Sayson, Marlon Agbuya       
+ Address:                               
+ TIN:                                   
+ Bus. Style:                            
+
+ Cashier: CUISON, MICHAEL TORRES        
+ Terminal No.: 01                       
+ Transaction No.: C0010120000003        
+ SI No.: 0000000003                     
+ Date/Time: 2020-07-15 11:36:04            
+----------------------------------------
+
+ Credit Card(s): 
+ BDO                           16898.00
+ Card No. : ************5555
+****************************************
+
+      This is your SALES INVOICE.       
+   Thank you, and please come again.    
+
+         RMJ Business Solutions         
+            021 Pogo grande             
+     Dagupan City, Pangasinan 2400      
+     VAT REG TIN: XXX-XXX-XXX-XXXXX     
+    ACCR NO.: XXXXXXXXXXXXXXXXXXXXXX    
+        Date Issued: XXXX-XX-XX         
+        Valid Until: XXXX-XX-XX         
+    PTU NO.: XXXXXXXXXXXXXXXXXXXXXX     
+        Date Issued: XXXX-XX-XX         
+        Valid Until: XXXX-XX-XX         
+
+      THIS INVOICE SHALL BE VALID       
+   FOR FIVE(5) YEARS FROM THE DATE OF   
+           THE PERMT TO USE.            
+       ----- END OF RECEIPT -----       
+
+----------------------------------------
+     ABC Telecom - Dagupan Central      
+      Business Name, Incorporated       
+              Perez Blvd.               
+        Dagupan City, Pangasinan        
+     VAT REG TIN: XXX-XXX-XXX-XXXXX     
+         MIN: XXXXXXXXXXXXXXXXX         
+         Serial No: XXXXXXXXXX          
+
+             SALES INVOICE              
+
+****************************************
+QTY DESCRIPTION      UPRICE    AMOUNT
+  1 200000000004    5999.00   5999.00V
+    OPENLINE W/ WARRANTY
+     HUAWEI/Y5 Lite (1GB + 6GB)/Blue    
+     SN: 868797048119999                
+  1 200000000005   10999.00  10999.00V
+    OPENLINE W/ WARRANTY
+     VIVO/Y9 (4GB + 128GB)/White        
+     SN: 868797048117999                
+----------------------------------------
+ No. of Items: 2
+
+ Sub-Total                     16998.00
+                          -------------
+ Price Exclusive of VAT        15176.79
+                          -------------
+ Net Sales (w/o VAT)           15176.79
+ Add: VAT                       1821.21
+                          -------------
+ TOTAL AMOUNT DUE :            16998.00
+
+ Check                         20000.00
+
+ CHANGE           :             3002.00
+----------------------------------------
+
+ VAT Exempt Sales                  0.00
+ Zero-Rated Sales                  0.00
+ VATable Sales                 15176.79
+ VAT Amount                     1821.21
+
+ Cust Name: Macarling, Federico Jr Romano
+ Address:                               
+ TIN:                                   
+ Bus. Style:                            
+
+ Cashier: CUISON, MICHAEL TORRES        
+ Terminal No.: 01                       
+ Transaction No.: C0010120000004        
+ SI No.: 0000000004                     
+ Date/Time: 2020-07-15 11:38:40            
+----------------------------------------
+
+ Check(s): 
+ BDO                           20000.00
+ Check No. : 123456789
+****************************************
+
+      This is your SALES INVOICE.       
+   Thank you, and please come again.    
+
+         RMJ Business Solutions         
+            021 Pogo grande             
+     Dagupan City, Pangasinan 2400      
+     VAT REG TIN: XXX-XXX-XXX-XXXXX     
+    ACCR NO.: XXXXXXXXXXXXXXXXXXXXXX    
+        Date Issued: XXXX-XX-XX         
+        Valid Until: XXXX-XX-XX         
+    PTU NO.: XXXXXXXXXXXXXXXXXXXXXX     
+        Date Issued: XXXX-XX-XX         
+        Valid Until: XXXX-XX-XX         
+
+      THIS INVOICE SHALL BE VALID       
+   FOR FIVE(5) YEARS FROM THE DATE OF   
+           THE PERMT TO USE.            
+       ----- END OF RECEIPT -----       
+
+----------------------------------------
+     ABC Telecom - Dagupan Central      
+      Business Name, Incorporated       
+              Perez Blvd.               
+        Dagupan City, Pangasinan        
+     VAT REG TIN: XXX-XXX-XXX-XXXXX     
+         MIN: XXXXXXXXXXXXXXXXX         
+         Serial No: XXXXXXXXXX          
+
+           CANCELLED INVOICE            
+
+****************************************
+QTY DESCRIPTION      UPRICE    AMOUNT
+ -2 200000000001    4000.00  -8000.00V
+    SUPER CHARGE POWER BANK (40W)
+ -1 200000000002    1000.00  -1000.00V
+    GALAXY BOOK COVER TAB S4
+ -1 200000000003    8990.00  -8990.00V
+    FREEBUDS 3
+ -1 200000000007   15000.00 -15000.00V
+    SAMPLE ITEM 2
+----------------------------------------
+ No. of Items: -5
+
+ Sub-Total                    -32990.00
+                          -------------
+ Price Exclusive of VAT       -29455.36
+                          -------------
+ Net Sales (w/o VAT)          -29455.36
+ Add: VAT                      -3534.64
+                          -------------
+ TOTAL AMOUNT DUE :           -32990.00
+
+----------------------------------------
+
+ VAT Exempt Sales                  0.00
+ Zero-Rated Sales                  0.00
+ VATable Sales                -29455.36
+ VAT Amount                    -3534.64
+
+ Cust Name: Cuison, Bernard Ramos       
+ Address:                               
+ TIN:                                   
+ Bus. Style:                            
+
+ Cashier: CUISON, MICHAEL TORRES        
+ Terminal No.: 01                       
+ Reference SI No.: 0000000001                     
+ Date/Time: 2020-07-15 11:45:09            
+****************************************
+
+      This is your SALES INVOICE.       
+   Thank you, and please come again.    
+
+         RMJ Business Solutions         
+            021 Pogo grande             
+     Dagupan City, Pangasinan 2400      
+     VAT REG TIN: XXX-XXX-XXX-XXXXX     
+    ACCR NO.: XXXXXXXXXXXXXXXXXXXXXX    
+        Date Issued: XXXX-XX-XX         
+        Valid Until: XXXX-XX-XX         
+    PTU NO.: XXXXXXXXXXXXXXXXXXXXXX     
+        Date Issued: XXXX-XX-XX         
+        Valid Until: XXXX-XX-XX         
+
+      THIS INVOICE SHALL BE VALID       
+   FOR FIVE(5) YEARS FROM THE DATE OF   
+           THE PERMT TO USE.            
+       ----- END OF RECEIPT -----       
+
+----------------------------------------
+     ABC Telecom - Dagupan Central      
+      Business Name, Incorporated       
+              Perez Blvd.               
+        Dagupan City, Pangasinan        
+     VAT REG TIN: XXX-XXX-XXX-XXXXX     
+         MIN: XXXXXXXXXXXXXXXXX         
+         Serial No: XXXXXXXXXX          
+
+             SALES INVOICE              
+
+****************************************
+QTY DESCRIPTION      UPRICE    AMOUNT
+  1 200000000004    5999.00   5999.00V
+    OPENLINE W/ WARRANTY
+     HUAWEI/Y5 Lite (1GB + 6GB)/Blue    
+     SN: 868797049422555                
+  1 200000000004    5999.00   5999.00V
+    OPENLINE W/ WARRANTY
+     HUAWEI/Y5 Lite (1GB + 6GB)/Blue    
+     SN: 868797049422357                
+  1 200000000004    5999.00   5999.00V
+    OPENLINE W/ WARRANTY
+     HUAWEI/Y5 Lite (1GB + 6GB)/Blue    
+     SN: 868797049422415                
+  1 200000000004    5999.00   5999.00V
+    OPENLINE W/ WARRANTY
+     HUAWEI/Y5 Lite (1GB + 6GB)/Blue    
+     SN: 868797048116372                
+  1 200000000005   10999.00  10999.00V
+    OPENLINE W/ WARRANTY
+     VIVO/Y9 (4GB + 128GB)/White        
+     SN: 868797048116315                
+  1 200000000005   10999.00  10999.00V
+    OPENLINE W/ WARRANTY
+     VIVO/Y9 (4GB + 128GB)/White        
+     SN: 868797048116232                
+----------------------------------------
+ No. of Items: 6
+
+ Sub-Total                     45994.00
+                          -------------
+ Price Exclusive of VAT        41066.07
+                          -------------
+ Net Sales (w/o VAT)           41066.07
+ Add: VAT                       4927.93
+                          -------------
+ TOTAL AMOUNT DUE :            45994.00
+
+ Cash                           5000.00
+ Credit Card                   10000.00
+ Check                         30994.00
+
+ CHANGE           :                0.00
+----------------------------------------
+
+ VAT Exempt Sales                  0.00
+ Zero-Rated Sales                  0.00
+ VATable Sales                 41066.07
+ VAT Amount                     4927.93
+
+ Cust Name: Casilang, Jovan Ali Parajas 
+ Address:                               
+ TIN:                                   
+ Bus. Style:                            
+
+ Cashier: CUISON, MICHAEL TORRES        
+ Terminal No.: 01                       
+ Transaction No.: C0010120000005        
+ SI No.: 0000000005                     
+ Date/Time: 2020-07-15 11:50:12            
+----------------------------------------
+
+ Credit Card(s): 
+ BDO                           10000.00
+ Card No. : ************1111
+
+ Check(s): 
+ BDO                           30994.00
+ Check No. : 1234567890
+****************************************
+
+      This is your SALES INVOICE.       
+   Thank you, and please come again.    
+
+         RMJ Business Solutions         
+            021 Pogo grande             
+     Dagupan City, Pangasinan 2400      
+     VAT REG TIN: XXX-XXX-XXX-XXXXX     
+    ACCR NO.: XXXXXXXXXXXXXXXXXXXXXX    
+        Date Issued: XXXX-XX-XX         
+        Valid Until: XXXX-XX-XX         
+    PTU NO.: XXXXXXXXXXXXXXXXXXXXXX     
+        Date Issued: XXXX-XX-XX         
+        Valid Until: XXXX-XX-XX         
+
+      THIS INVOICE SHALL BE VALID       
+   FOR FIVE(5) YEARS FROM THE DATE OF   
+           THE PERMT TO USE.            
+       ----- END OF RECEIPT -----       
+
+----------------------------------------
+     ABC Telecom - Dagupan Central      
+      Business Name, Incorporated       
+              Perez Blvd.               
+        Dagupan City, Pangasinan        
+     VAT REG TIN: XXX-XXX-XXX-XXXXX     
+         MIN: XXXXXXXXXXXXXXXXX         
+         Serial No: XXXXXXXXXX          
+
+               Y-READING                
+
+DATE    : 2020-07-15                    
+CASHIER : CUISON, MICHAEL TORRES        
+TERMINAL: 01                            
+
+****************************************
+
+ Shift Start : 2020-07-15 10:54:09      
+ Shift End   :                          
+
+ Beginning SI: 0000000001               
+ Ending SI   : 0000000005               
+
+ GROSS SALES                  153970.00
+ Less : Regular Discnt          4199.00
+        Senior Dscnt/PWD           0.00
+        Returns                    0.00
+        Void                   32990.00
+                          -------------
+ NET SALES                    116781.00
+
+ VATable Sales                104268.75
+ VAT Amount                    12512.25
+ VAT-Exempt Sales                  0.00
+ Zero-Rated Sales                  0.00
+
+ Senior/PWD Gross Sales:           0.00
+   Senior/PWD Net Sales:           0.00
+     Less: 20% Discount:           0.00
+           Less 12% VAT:           0.00
+
+ Collection Info:        
+  Deposit                       1500.00
+  Withdrawal                       0.00
+
+  Cashbox Amount               40389.00
+  Cheque                       50994.00
+  Credit Card                  26898.00
+  Gift Cheque                      0.00
+  Company Accounts                 0.00
+----------------------------------------
+  Beginning Balance :              0.00
+  Ending Balance    :         116781.00
+----------------------------------------
+  Curr. Sales Amt.  :         116781.00
+----------------------------------------
+****************************************
+/end-of-summary - 2020-07-15 12:57:20
+----------------------------------------
+     ABC Telecom - Dagupan Central      
+      Business Name, Incorporated       
+              Perez Blvd.               
+        Dagupan City, Pangasinan        
+     VAT REG TIN: XXX-XXX-XXX-XXXXX     
+         MIN: XXXXXXXXXXXXXXXXX         
+         Serial No: XXXXXXXXXX          
+
+               Y-READING                
+
+DATE    : 2020-07-15                    
+CASHIER : CUISON, MICHAEL TORRES        
+TERMINAL: 01                            
+
+****************************************
+
+ Shift Start : 2020-07-15 10:54:09      
+ Shift End   :                          
+
+ Beginning SI: 0000000001               
+ Ending SI   : 0000000005               
+
+ GROSS SALES                  153970.00
+ Less : Regular Discnt          4199.00
+        Senior Dscnt/PWD           0.00
+        Returns                    0.00
+        Void                   32990.00
+                          -------------
+ NET SALES                    116781.00
+
+ VATable Sales                104268.75
+ VAT Amount                    12512.25
+ VAT-Exempt Sales                  0.00
+ Zero-Rated Sales                  0.00
+
+ Senior/PWD Gross Sales:           0.00
+   Senior/PWD Net Sales:           0.00
+     Less: 20% Discount:           0.00
+           Less 12% VAT:           0.00
+
+ Collection Info:        
+  Deposit                       1500.00
+  Withdrawal                       0.00
+
+  Cashbox Amount               40389.00
+  Cheque                       50994.00
+  Credit Card                  26898.00
+  Gift Cheque                      0.00
+  Company Accounts                 0.00
+----------------------------------------
+  Beginning Balance :              0.00
+  Ending Balance    :         116781.00
+----------------------------------------
+  Curr. Sales Amt.  :         116781.00
+----------------------------------------
+****************************************
+/end-of-summary - 2020-07-15 13:12:19
+----------------------------------------
+     ABC Telecom - Dagupan Central      
+      Business Name, Incorporated       
+              Perez Blvd.               
+        Dagupan City, Pangasinan        
+     VAT REG TIN: XXX-XXX-XXX-XXXXX     
+         MIN: XXXXXXXXXXXXXXXXX         
+         Serial No: XXXXXXXXXX          
+
+               Y-READING                
+
+DATE    : 2020-07-15                    
+CASHIER : CUISON, MICHAEL TORRES        
+TERMINAL: 01                            
+
+****************************************
+
+ Shift Start : 2020-07-15 10:54:09      
+ Shift End   :                          
+
+ Beginning SI: 0000000001               
+ Ending SI   : 0000000005               
+
+ GROSS SALES                  153970.00
+ Less : Regular Discnt          4199.00
+        Senior Dscnt/PWD           0.00
+        Returns                    0.00
+        Void                       0.00
+                          -------------
+ NET SALES                    149771.00
+
+ VATable Sales                133724.11
+ VAT Amount                    16046.89
+ VAT-Exempt Sales                  0.00
+ Zero-Rated Sales                  0.00
+
+ Senior/PWD Gross Sales:           0.00
+   Senior/PWD Net Sales:           0.00
+     Less: 20% Discount:           0.00
+           Less 12% VAT:           0.00
+
+ Collection Info:        
+  Deposit                       1500.00
+  Withdrawal                       0.00
+
+  Cashbox Amount               73379.00
+  Cheque                       50994.00
+  Credit Card                  26898.00
+  Gift Cheque                      0.00
+  Company Accounts                 0.00
+----------------------------------------
+  Beginning Balance :              0.00
+  Ending Balance    :         149771.00
+----------------------------------------
+  Curr. Sales Amt.  :         149771.00
+----------------------------------------
+****************************************
+/end-of-summary - 2020-07-15 13:15:29
+----------------------------------------
+     ABC Telecom - Dagupan Central      
+      Business Name, Incorporated       
+              Perez Blvd.               
+        Dagupan City, Pangasinan        
+     VAT REG TIN: XXX-XXX-XXX-XXXXX     
+         MIN: XXXXXXXXXXXXXXXXX         
+         Serial No: XXXXXXXXXX          
+
+               Y-READING                
+
+DATE    : 2020-07-15                    
+CASHIER : CUISON, MICHAEL TORRES        
+TERMINAL: 01                            
+
+****************************************
+
+ Shift Start : 2020-07-15 10:54:09      
+ Shift End   :                          
+
+ Beginning SI: 0000000001               
+ Ending SI   : 0000000005               
+
+ GROSS SALES                  153970.00
+ Less : Regular Discnt          4199.00
+        Senior Dscnt/PWD           0.00
+        Returns                    0.00
+        Void                   32990.00
+                          -------------
+ NET SALES                    116781.00
+
+ VATable Sales                104268.75
+ VAT Amount                    12512.25
+ VAT-Exempt Sales                  0.00
+ Zero-Rated Sales                  0.00
+
+ Senior/PWD Gross Sales:           0.00
+   Senior/PWD Net Sales:           0.00
+     Less: 20% Discount:           0.00
+           Less 12% VAT:           0.00
+
+ Collection Info:        
+  Deposit                       1500.00
+  Withdrawal                       0.00
+
+  Cashbox Amount               40389.00
+  Cheque                       50994.00
+  Credit Card                  26898.00
+  Gift Cheque                      0.00
+  Company Accounts                 0.00
+----------------------------------------
+  Beginning Balance :              0.00
+  Ending Balance    :         116781.00
+----------------------------------------
+  Curr. Sales Amt.  :         116781.00
+----------------------------------------
+****************************************
+/end-of-summary - 2020-07-15 13:16:34
+----------------------------------------
+     ABC Telecom - Dagupan Central      
+      Business Name, Incorporated       
+              Perez Blvd.               
+        Dagupan City, Pangasinan        
+     VAT REG TIN: XXX-XXX-XXX-XXXXX     
+         MIN: XXXXXXXXXXXXXXXXX         
+         Serial No: XXXXXXXXXX          
+
+               Y-READING                
+
+DATE    : 2020-07-15                    
+CASHIER : CUISON, MICHAEL TORRES        
+TERMINAL: 01                            
+
+****************************************
+
+ Shift Start : 2020-07-15 10:54:09      
+ Shift End   :                          
+
+ Beginning SI: 0000000001               
+ Ending SI   : 0000000005               
+
+ GROSS SALES                  153970.00
+ Less : Regular Discnt          4199.00
+        Senior Dscnt/PWD           0.00
+        Returns                    0.00
+        Void                   32990.00
+                          -------------
+ NET SALES                    116781.00
+
+ VATable Sales                104268.75
+ VAT Amount                    12512.25
+ VAT-Exempt Sales                  0.00
+ Zero-Rated Sales                  0.00
+
+ Senior/PWD Gross Sales:           0.00
+   Senior/PWD Net Sales:           0.00
+     Less: 20% Discount:           0.00
+           Less 12% VAT:           0.00
+
+ Collection Info:        
+  Deposit                       1500.00
+  Withdrawal                       0.00
+
+  Cashbox Amount               40389.00
+  Cheque                       50994.00
+  Credit Card                  26898.00
+  Gift Cheque                      0.00
+  Company Accounts                 0.00
+----------------------------------------
+  Beginning Balance :              0.00
+  Ending Balance    :         116781.00
+----------------------------------------
+  Curr. Sales Amt.  :         116781.00
+----------------------------------------
+****************************************
+/end-of-summary - 2020-07-15 13:39:51
+----------------------------------------
+     ABC Telecom - Dagupan Central      
+      Business Name, Incorporated       
+              Perez Blvd.               
+        Dagupan City, Pangasinan        
+     VAT REG TIN: XXX-XXX-XXX-XXXXX     
+         MIN: XXXXXXXXXXXXXXXXX         
+         Serial No: XXXXXXXXXX          
+
+               Y-READING                
+
+DATE    : 2020-07-15                    
+CASHIER : CUISON, MICHAEL TORRES        
+TERMINAL: 01                            
+
+****************************************
+
+ Shift Start : 2020-07-15 10:54:09      
+ Shift End   :                          
+
+ Beginning SI: 0000000001               
+ Ending SI   : 0000000005               
+
+ GROSS SALES                  153970.00
+ Less : Regular Discnt          4199.00
+        Senior Dscnt/PWD           0.00
+        Returns                    0.00
+        Void                   32990.00
+                          -------------
+ NET SALES                    116781.00
+
+ VATable Sales                104268.75
+ VAT Amount                    12512.25
+ VAT-Exempt Sales                  0.00
+ Zero-Rated Sales                  0.00
+
+ Senior/PWD Gross Sales:           0.00
+   Senior/PWD Net Sales:           0.00
+     Less: 20% Discount:           0.00
+           Less 12% VAT:           0.00
+
+ Collection Info:        
+  Deposit                       1500.00
+  Withdrawal                   30000.00
+
+  Cashbox Amount               10389.00
+  Cheque                       50994.00
+  Credit Card                  26898.00
+  Gift Cheque                      0.00
+  Company Accounts                 0.00
+----------------------------------------
+  Beginning Balance :              0.00
+  Ending Balance    :         116781.00
+----------------------------------------
+  Curr. Sales Amt.  :         116781.00
+----------------------------------------
+****************************************
+/end-of-summary - 2020-07-15 13:52:56
+----------------------------------------
+     ABC Telecom - Dagupan Central      
+      Business Name, Incorporated       
+              Perez Blvd.               
+        Dagupan City, Pangasinan        
+     VAT REG TIN: XXX-XXX-XXX-XXXXX     
+         MIN: XXXXXXXXXXXXXXXXX         
+         Serial No: XXXXXXXXXX          
+
+               X-READING                
+
+DATE    : 2020-07-15                    
+CASHIER : CUISON, MICHAEL TORRES        
+TERMINAL: 01                            
+
+****************************************
+
+ Shift Start : 2020-07-15 10:54:09      
+ Shift End   : 2020-07-15 13:55:47      
+
+ Beginning SI: 0000000001               
+ Ending SI   : 0000000005               
+
+ GROSS SALES                  153970.00
+ Less : Regular Discnt          4199.00
+        Senior Dscnt/PWD           0.00
+        Returns                    0.00
+        Void                   32990.00
+                          -------------
+ NET SALES                    116781.00
+
+ VATable Sales                104268.75
+ VAT Amount                    12512.25
+ VAT-Exempt Sales                  0.00
+ Zero-Rated Sales                  0.00
+
+ Senior/PWD Gross Sales:           0.00
+   Senior/PWD Net Sales:           0.00
+     Less: 20% Discount:           0.00
+           Less 12% VAT:           0.00
+
+ Collection Info:        
+  Deposit                       1500.00
+  Withdrawal                   30000.00
+
+  Cashbox Amount               10389.00
+  Cheque                       50994.00
+  Credit Card                  26898.00
+  Gift Cheque                      0.00
+  Company Accounts                 0.00
+----------------------------------------
+  Beginning Balance :              0.00
+  Ending Balance    :         116781.00
+----------------------------------------
+  Curr. Sales Amt.  :         116781.00
+----------------------------------------
+****************************************
+/end-of-summary - 2020-07-15 13:55:47
+----------------------------------------
+     ABC Telecom - Dagupan Central      
+      Business Name, Incorporated       
+              Perez Blvd.               
+        Dagupan City, Pangasinan        
+     VAT REG TIN: XXX-XXX-XXX-XXXXX     
+         MIN: XXXXXXXXXXXXXXXXX         
+         Serial No: XXXXXXXXXX          
+
+               Z-READING                
+
+DATE    : 2020-07-15 to 2020-07-15      
+TERMINAL: 01                            
+
+****************************************
+
+ Beginning SI: 0000000001               
+ Ending SI   : 0000000005               
+
+ GROSS SALES                  153970.00
+ Less : Regular Discnt          4199.00
+        Senior Dscnt/PWD           0.00
+        Returns                    0.00
+        Void                   32990.00
+                          -------------
+ NET SALES                    116781.00
+
+ VATable Sales                104268.75
+ VAT Amount                    12512.25
+ VAT-Exempt Sales                  0.00
+ Zero-Rated Sales                  0.00
+
+ Senior/PWD Gross Sales:           0.00
+   Senior/PWD Net Sales:           0.00
+     Less: 20% Discount:           0.00
+           Less 12% VAT:           0.00
+
+ Collection Info:        
+  Deposit                       1500.00
+  Withdrawal                   30000.00
+  Cashbox Amount               10389.00
+  Cheque                       50994.00
+  Credit Card                  26898.00
+  Gift Cheque                      0.00
+  Company Accounts                 0.00
+----------------------------------------
+  Beginning Balance :              0.00
+  Ending Balance    :         116781.00
+----------------------------------------
+         Z COUNTER:                   1
+  ACC. GRAND TOTAL:           116781.00
+----------------------------------------
+****************************************
+/end-of-summary - 2020-07-15 13:55:47
+----------------------------------------

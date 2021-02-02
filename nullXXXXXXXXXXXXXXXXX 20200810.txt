@@ -1,0 +1,865 @@
+     ABC Telecom - Dagupan Central      
+      Business Name, Incorporated       
+              Perez Blvd.               
+        Dagupan City, Pangasinan        
+     VAT REG TIN: XXX-XXX-XXX-XXXXX     
+         MIN: XXXXXXXXXXXXXXXXX         
+         Serial No: XXXXXXXXXX          
+
+
+             TRAINING MODE              
+
+ Cashier: mac/CUISON, MICHAEL TORRES    
+ Terminal No.: 01                       
+ SI No.: 0000000001                     
+ Transaction No.: 0000000001            
+ Date/Time: 2020-08-10 09:07:47            
+
+
+****************************************
+QTY DESCRIPTION      UPRICE    AMOUNT
+  1 200000000005   10999.00  10999.00V
+    OPENLINE W/ WARRANTY
+     VIVO/Y9 (4GB + 128GB)/White        
+     SN: 868797048117999                
+     LOYALTY DISC. 3                    
+      (10.0%)                (1099.90)
+      (P50.00)                 (50.00)
+----------------------------------------
+ No. of Items: 1
+
+ Gross Sales                    9849.10
+ Less: Discount                  502.46
+                          -------------
+ VATable Sales                  9346.65
+                          -------------
+ Net VATable Sales              8345.22
+ Add: VAT                       1001.43
+                          -------------
+ TOTAL AMOUNT DUE :             9346.65
+
+ Cash                           9400.00
+
+ CHANGE           :               53.35
+----------------------------------------
+
+ VAT Exempt Sales                  0.00
+ Zero-Rated Sales                  0.00
+ VATable Sales                  8345.22
+ VAT Amount                     1001.43
+
+ Cust Name: Sayson, Marlon Agbuya       
+ Address:                               
+ TIN:                                   
+ Bus. Style:                            
+****************************************
+
+      This is not a SALES INVOICE.      
+   Thank you, and please come again.    
+
+         RMJ Business Solutions         
+             32 Pogo grande             
+     Dagupan City, Pangasinan 2400      
+     VAT REG TIN: XXX-XXX-XXX-XXXXX     
+    ACCR NO.: XXXXXXXXXXXXXXXXXXXXXX    
+        Date Issued: XXXX-XX-XX         
+        Valid Until: XXXX-XX-XX         
+    PTU NO.: XXXXXXXXXXXXXXXXXXXXXX     
+        Date Issued: XXXX-XX-XX         
+        Valid Until: XXXX-XX-XX         
+
+      THIS INVOICE SHALL BE VALID       
+   FOR FIVE(5) YEARS FROM THE DATE OF   
+           THE PERMT TO USE.            
+       ----- END OF RECEIPT -----       
+     ABC Telecom - Dagupan Central      
+      Business Name, Incorporated       
+              Perez Blvd.               
+        Dagupan City, Pangasinan        
+     VAT REG TIN: XXX-XXX-XXX-XXXXX     
+         MIN: XXXXXXXXXXXXXXXXX         
+         Serial No: XXXXXXXXXX          
+
+                 RETURN                 
+             TRAINING MODE              
+
+
+ Cashier: mac/CUISON, MICHAEL TORRES    
+ Terminal No.: 01                       
+ Reference SI No.: 0000000001             
+ Transaction No.: 0000000002            
+ Date/Time: 2020-08-10 09:15:46            
+
+****************************************
+QTY DESCRIPTION      UPRICE    AMOUNT
+ -1 200000000005   10999.00 -10999.00V
+    OPENLINE W/ WARRANTY
+     VIVO/Y9 (4GB + 128GB)/White        
+     SN: 868797048117999                
+     LOYALTY DISC. 3                    
+      (10.0%)                  1099.90
+      (P50.00)                   50.00
+----------------------------------------
+ No. of Items: -1
+
+ Gross Sales                   -9849.10
+ Less: RAINY DAY DISC.                  
+        (5.0%)                  -492.46
+        (P10.0)                  -10.00
+                          -------------
+ VATable Sales                 -9346.65
+                          -------------
+ Net VATable Sales             -8345.22
+ Add: VAT                      -1001.43
+                          -------------
+ TOTAL AMOUNT DUE :            -9346.65
+
+----------------------------------------
+
+ VAT Exempt Sales                  0.00
+ Zero-Rated Sales                  0.00
+ VATable Sales                 -8345.22
+ VAT Amount                    -1001.43
+
+ Cust Name: Sayson, Marlon Agbuya       
+ Address:                               
+ TIN:                                   
+ Bus. Style:                            
+****************************************
+
+   Thank you, and please come again.    
+
+         RMJ Business Solutions         
+             32 Pogo grande             
+     Dagupan City, Pangasinan 2400      
+     VAT REG TIN: XXX-XXX-XXX-XXXXX     
+    ACCR NO.: XXXXXXXXXXXXXXXXXXXXXX    
+        Date Issued: XXXX-XX-XX         
+        Valid Until: XXXX-XX-XX         
+    PTU NO.: XXXXXXXXXXXXXXXXXXXXXX     
+        Date Issued: XXXX-XX-XX         
+        Valid Until: XXXX-XX-XX         
+
+      THIS INVOICE SHALL BE VALID       
+   FOR FIVE(5) YEARS FROM THE DATE OF   
+           THE PERMT TO USE.            
+       ----- END OF RECEIPT -----       
+
+----------------------------------------
+     ABC Telecom - Dagupan Central      
+      Business Name, Incorporated       
+              Perez Blvd.               
+        Dagupan City, Pangasinan        
+     VAT REG TIN: XXX-XXX-XXX-XXXXX     
+         MIN: XXXXXXXXXXXXXXXXX         
+         Serial No: XXXXXXXXXX          
+
+                 RETURN                 
+             TRAINING MODE              
+
+
+ Cashier: mac/CUISON, MICHAEL TORRES    
+ Terminal No.: 01                       
+ Reference SI No.: 0000000001             
+ Transaction No.: 0000000003            
+ Date/Time: 2020-08-10 09:15:46            
+
+****************************************
+QTY DESCRIPTION      UPRICE    AMOUNT
+ -1 200000000005   10999.00 -10999.00V
+    OPENLINE W/ WARRANTY
+     VIVO/Y9 (4GB + 128GB)/White        
+     SN: 868797048117999                
+     LOYALTY DISC. 3                    
+      (10.0%)                  1099.90
+      (P50.00)                   50.00
+----------------------------------------
+ No. of Items: -1
+
+ Gross Sales                   -9849.10
+ Less: RAINY DAY DISC.                  
+        (5.0%)                  -492.46
+        (P10.0)                  -10.00
+                          -------------
+ VATable Sales                 -9346.65
+                          -------------
+ Net VATable Sales             -8345.22
+ Add: VAT                      -1001.43
+                          -------------
+ TOTAL AMOUNT DUE :            -9346.65
+
+----------------------------------------
+
+ VAT Exempt Sales                  0.00
+ Zero-Rated Sales                  0.00
+ VATable Sales                 -8345.22
+ VAT Amount                    -1001.43
+
+ Cust Name: Sayson, Marlon Agbuya       
+ Address:                               
+ TIN:                                   
+ Bus. Style:                            
+****************************************
+
+   Thank you, and please come again.    
+
+         RMJ Business Solutions         
+             32 Pogo grande             
+     Dagupan City, Pangasinan 2400      
+     VAT REG TIN: XXX-XXX-XXX-XXXXX     
+    ACCR NO.: XXXXXXXXXXXXXXXXXXXXXX    
+        Date Issued: XXXX-XX-XX         
+        Valid Until: XXXX-XX-XX         
+    PTU NO.: XXXXXXXXXXXXXXXXXXXXXX     
+        Date Issued: XXXX-XX-XX         
+        Valid Until: XXXX-XX-XX         
+
+      THIS INVOICE SHALL BE VALID       
+   FOR FIVE(5) YEARS FROM THE DATE OF   
+           THE PERMT TO USE.            
+       ----- END OF RECEIPT -----       
+
+----------------------------------------
+     ABC Telecom - Dagupan Central      
+      Business Name, Incorporated       
+              Perez Blvd.               
+        Dagupan City, Pangasinan        
+     VAT REG TIN: XXX-XXX-XXX-XXXXX     
+         MIN: XXXXXXXXXXXXXXXXX         
+         Serial No: XXXXXXXXXX          
+
+
+             TRAINING MODE              
+
+ Cashier: mac/CUISON, MICHAEL TORRES    
+ Terminal No.: 01                       
+ SI No.: 0000000002                     
+ Transaction No.: 0000000004            
+ Date/Time: 2020-08-10 09:27:35            
+
+
+****************************************
+QTY DESCRIPTION      UPRICE    AMOUNT
+  1 200000000005   10999.00  10999.00V
+    OPENLINE W/ WARRANTY
+     VIVO/Y9 (4GB + 128GB)/White        
+     SN: 868797048116232                
+      LOYALTY DISC. 3                   
+       (10.0%)               (1099.90)
+       (P50.00)                (50.00)
+----------------------------------------
+ No. of Items: 1
+
+ Gross Sales                    9849.10
+ Less: Discount                  502.46
+                          -------------
+ VATable Sales                  9346.65
+                          -------------
+ Net VATable Sales              8345.22
+ Add: VAT                       1001.43
+                          -------------
+ TOTAL AMOUNT DUE :             9346.65
+
+ Cash                          10000.00
+
+ CHANGE           :              653.35
+----------------------------------------
+
+ VAT Exempt Sales                  0.00
+ Zero-Rated Sales                  0.00
+ VATable Sales                  8345.22
+ VAT Amount                     1001.43
+
+ Cust Name: Sayson, Marlon Agbuya       
+ Address:                               
+ TIN:                                   
+ Bus. Style:                            
+****************************************
+
+      This is not a SALES INVOICE.      
+   Thank you, and please come again.    
+
+         RMJ Business Solutions         
+             32 Pogo grande             
+     Dagupan City, Pangasinan 2400      
+     VAT REG TIN: XXX-XXX-XXX-XXXXX     
+    ACCR NO.: XXXXXXXXXXXXXXXXXXXXXX    
+        Date Issued: XXXX-XX-XX         
+        Valid Until: XXXX-XX-XX         
+    PTU NO.: XXXXXXXXXXXXXXXXXXXXXX     
+        Date Issued: XXXX-XX-XX         
+        Valid Until: XXXX-XX-XX         
+
+      THIS INVOICE SHALL BE VALID       
+   FOR FIVE(5) YEARS FROM THE DATE OF   
+           THE PERMT TO USE.            
+       ----- END OF RECEIPT -----       
+
+----------------------------------------
+     ABC Telecom - Dagupan Central      
+      Business Name, Incorporated       
+              Perez Blvd.               
+        Dagupan City, Pangasinan        
+     VAT REG TIN: XXX-XXX-XXX-XXXXX     
+         MIN: XXXXXXXXXXXXXXXXX         
+         Serial No: XXXXXXXXXX          
+
+                 RETURN                 
+             TRAINING MODE              
+
+
+ Cashier: mac/CUISON, MICHAEL TORRES    
+ Terminal No.: 01                       
+ Reference SI No.: 0000000002             
+ Transaction No.: 0000000005            
+ Date/Time: 2020-08-10 09:30:28            
+
+****************************************
+QTY DESCRIPTION      UPRICE    AMOUNT
+ -1 200000000005   10999.00 -10999.00V
+    OPENLINE W/ WARRANTY
+     VIVO/Y9 (4GB + 128GB)/White        
+     SN: 868797048116232                
+     LOYALTY DISC. 3                    
+      (10.0%)                  1099.90
+      (P50.00)                   50.00
+----------------------------------------
+ No. of Items: -1
+
+ Gross Sales                   -9849.10
+ Less: RAINY DAY DISC.                  
+        (5.0%)                  -492.46
+        (P10.0)                  -10.00
+                          -------------
+ VATable Sales                 -9346.65
+                          -------------
+ Net VATable Sales             -8345.22
+ Add: VAT                      -1001.43
+                          -------------
+ TOTAL AMOUNT DUE :            -9346.65
+
+----------------------------------------
+
+ VAT Exempt Sales                  0.00
+ Zero-Rated Sales                  0.00
+ VATable Sales                 -8345.22
+ VAT Amount                    -1001.43
+
+ Cust Name: Sayson, Marlon Agbuya       
+ Address:                               
+ TIN:                                   
+ Bus. Style:                            
+****************************************
+
+   Thank you, and please come again.    
+
+         RMJ Business Solutions         
+             32 Pogo grande             
+     Dagupan City, Pangasinan 2400      
+     VAT REG TIN: XXX-XXX-XXX-XXXXX     
+    ACCR NO.: XXXXXXXXXXXXXXXXXXXXXX    
+        Date Issued: XXXX-XX-XX         
+        Valid Until: XXXX-XX-XX         
+    PTU NO.: XXXXXXXXXXXXXXXXXXXXXX     
+        Date Issued: XXXX-XX-XX         
+        Valid Until: XXXX-XX-XX         
+
+      THIS INVOICE SHALL BE VALID       
+   FOR FIVE(5) YEARS FROM THE DATE OF   
+           THE PERMT TO USE.            
+       ----- END OF RECEIPT -----       
+
+----------------------------------------
+     ABC Telecom - Dagupan Central      
+      Business Name, Incorporated       
+              Perez Blvd.               
+        Dagupan City, Pangasinan        
+     VAT REG TIN: XXX-XXX-XXX-XXXXX     
+         MIN: XXXXXXXXXXXXXXXXX         
+         Serial No: XXXXXXXXXX          
+
+
+             TRAINING MODE              
+
+ Cashier: mac/CUISON, MICHAEL TORRES    
+ Terminal No.: 01                       
+ SI No.: 0000000003                     
+ Transaction No.: 0000000006            
+ Date/Time: 2020-08-10 10:30:15            
+
+
+****************************************
+QTY DESCRIPTION      UPRICE    AMOUNT
+  1 200000000002    1000.00   1000.00V
+    GALAXY BOOK COVER TAB S4
+      LOYALTY DISC. 3                   
+       (10.0%)                (100.00)
+       (P50.00)                (50.00)
+----------------------------------------
+ No. of Items: 1
+
+ Gross Sales                     850.00
+ Less: Discount                   52.50
+                          -------------
+ VATable Sales                   797.50
+                          -------------
+ Net VATable Sales               712.05
+ Add: VAT                         85.45
+                          -------------
+ TOTAL AMOUNT DUE :              797.50
+
+ Cash                            800.00
+
+ CHANGE           :                2.50
+----------------------------------------
+
+ VAT Exempt Sales                  0.00
+ Zero-Rated Sales                  0.00
+ VATable Sales                   712.05
+ VAT Amount                       85.45
+
+ Cust Name: Cuison, Bernard Ramos       
+ Address:                               
+ TIN:                                   
+ Bus. Style:                            
+****************************************
+
+      This is not a SALES INVOICE.      
+   Thank you, and please come again.    
+
+         RMJ Business Solutions         
+             32 Pogo grande             
+     Dagupan City, Pangasinan 2400      
+     VAT REG TIN: XXX-XXX-XXX-XXXXX     
+    ACCR NO.: XXXXXXXXXXXXXXXXXXXXXX    
+        Date Issued: XXXX-XX-XX         
+        Valid Until: XXXX-XX-XX         
+    PTU NO.: XXXXXXXXXXXXXXXXXXXXXX     
+        Date Issued: XXXX-XX-XX         
+        Valid Until: XXXX-XX-XX         
+
+      THIS INVOICE SHALL BE VALID       
+   FOR FIVE(5) YEARS FROM THE DATE OF   
+           THE PERMT TO USE.            
+       ----- END OF RECEIPT -----       
+
+----------------------------------------
+     ABC Telecom - Dagupan Central      
+      Business Name, Incorporated       
+              Perez Blvd.               
+        Dagupan City, Pangasinan        
+     VAT REG TIN: XXX-XXX-XXX-XXXXX     
+         MIN: XXXXXXXXXXXXXXXXX         
+         Serial No: XXXXXXXXXX          
+
+                 RETURN                 
+             TRAINING MODE              
+
+
+ Cashier: mac/CUISON, MICHAEL TORRES    
+ Terminal No.: 01                       
+ Reference SI No.: 0000000003             
+ Transaction No.: 0000000007            
+ Date/Time: 2020-08-10 10:31:15            
+
+****************************************
+QTY DESCRIPTION      UPRICE    AMOUNT
+ -1 200000000002    1000.00  -1000.00V
+    GALAXY BOOK COVER TAB S4
+     LOYALTY DISC. 3                    
+      (10.0%)                  100.00
+      (P50.00)                  50.00
+----------------------------------------
+ No. of Items: -1
+
+ Gross Sales                    -850.00
+ Less: RAINY DAY DISC.                  
+        (5.0%)                   -42.50
+        (P10.0)                  -10.00
+                          -------------
+ VATable Sales                  -797.50
+                          -------------
+ Net VATable Sales              -712.05
+ Add: VAT                        -85.45
+                          -------------
+ TOTAL AMOUNT DUE :             -797.50
+
+----------------------------------------
+
+ VAT Exempt Sales                  0.00
+ Zero-Rated Sales                  0.00
+ VATable Sales                  -712.05
+ VAT Amount                      -85.45
+
+ Cust Name: Cuison, Bernard Ramos       
+ Address:                               
+ TIN:                                   
+ Bus. Style:                            
+****************************************
+
+   Thank you, and please come again.    
+
+         RMJ Business Solutions         
+             32 Pogo grande             
+     Dagupan City, Pangasinan 2400      
+     VAT REG TIN: XXX-XXX-XXX-XXXXX     
+    ACCR NO.: XXXXXXXXXXXXXXXXXXXXXX    
+        Date Issued: XXXX-XX-XX         
+        Valid Until: XXXX-XX-XX         
+    PTU NO.: XXXXXXXXXXXXXXXXXXXXXX     
+        Date Issued: XXXX-XX-XX         
+        Valid Until: XXXX-XX-XX         
+
+      THIS INVOICE SHALL BE VALID       
+   FOR FIVE(5) YEARS FROM THE DATE OF   
+           THE PERMT TO USE.            
+       ----- END OF RECEIPT -----       
+
+----------------------------------------
+     ABC Telecom - Dagupan Central      
+      Business Name, Incorporated       
+              Perez Blvd.               
+        Dagupan City, Pangasinan        
+     VAT REG TIN: XXX-XXX-XXX-XXXXX     
+         MIN: XXXXXXXXXXXXXXXXX         
+         Serial No: XXXXXXXXXX          
+
+
+             TRAINING MODE              
+
+ Cashier: mac/CUISON, MICHAEL TORRES    
+ Terminal No.: 01                       
+ SI No.: 0000000004                     
+ Transaction No.: 0000000008            
+ Date/Time: 2020-08-10 13:20:18            
+
+
+****************************************
+QTY DESCRIPTION      UPRICE    AMOUNT
+  1 200000000003    8990.00   8990.00V
+    FREEBUDS 3
+      LOYALTY DISC. 3                   
+       (10.0%)                (899.00)
+       (P50.00)                (50.00)
+----------------------------------------
+ No. of Items: 1
+
+ Gross Sales                    8041.00
+ Less: Discount                  412.05
+ Less: RAINY DAY DISC.                  
+        (5.0%)                   402.05
+        (P10.0)                   10.00
+                          -------------
+ VATable Sales                  7628.95
+                          -------------
+ Net VATable Sales              6811.56
+ Add: VAT                        817.39
+                          -------------
+ TOTAL AMOUNT DUE :             7628.95
+
+ Cash                           7700.00
+
+ CHANGE           :               71.05
+----------------------------------------
+
+ VAT Exempt Sales                  0.00
+ Zero-Rated Sales                  0.00
+ VATable Sales                  6811.56
+ VAT Amount                      817.39
+
+ Cust Name: Macarling, Federico Jr Romano
+ Address:                               
+ TIN:                                   
+ Bus. Style:                            
+****************************************
+
+      This is not a SALES INVOICE.      
+   Thank you, and please come again.    
+
+         RMJ Business Solutions         
+             32 Pogo grande             
+     Dagupan City, Pangasinan 2400      
+     VAT REG TIN: XXX-XXX-XXX-XXXXX     
+    ACCR NO.: XXXXXXXXXXXXXXXXXXXXXX    
+        Date Issued: XXXX-XX-XX         
+        Valid Until: XXXX-XX-XX         
+    PTU NO.: XXXXXXXXXXXXXXXXXXXXXX     
+        Date Issued: XXXX-XX-XX         
+        Valid Until: XXXX-XX-XX         
+
+      THIS INVOICE SHALL BE VALID       
+   FOR FIVE(5) YEARS FROM THE DATE OF   
+           THE PERMT TO USE.            
+       ----- END OF RECEIPT -----       
+
+----------------------------------------
+     ABC Telecom - Dagupan Central      
+      Business Name, Incorporated       
+              Perez Blvd.               
+        Dagupan City, Pangasinan        
+     VAT REG TIN: XXX-XXX-XXX-XXXXX     
+         MIN: XXXXXXXXXXXXXXXXX         
+         Serial No: XXXXXXXXXX          
+
+                 RETURN                 
+             TRAINING MODE              
+
+
+ Cashier: mac/CUISON, MICHAEL TORRES    
+ Terminal No.: 01                       
+ Reference SI No.: 0000000004             
+ Transaction No.: 0000000009            
+ Date/Time: 2020-08-10 13:21:58            
+
+****************************************
+QTY DESCRIPTION      UPRICE    AMOUNT
+ -1 200000000003    8990.00  -8990.00V
+    FREEBUDS 3
+     LOYALTY DISC. 3                    
+      (10.0%)                  899.00
+      (P50.00)                  50.00
+----------------------------------------
+ No. of Items: -1
+
+ Gross Sales                   -8041.00
+ Less: RAINY DAY DISC.                  
+        (5.0%)                  -402.05
+        (P10.0)                  -10.00
+                          -------------
+ VATable Sales                 -7628.95
+                          -------------
+ Net VATable Sales             -6811.56
+ Add: VAT                       -817.39
+                          -------------
+ TOTAL AMOUNT DUE :            -7628.95
+
+----------------------------------------
+
+ VAT Exempt Sales                  0.00
+ Zero-Rated Sales                  0.00
+ VATable Sales                 -6811.56
+ VAT Amount                     -817.39
+
+ Cust Name: Macarling, Federico Jr Romano
+ Address:                               
+ TIN:                                   
+ Bus. Style:                            
+****************************************
+
+   Thank you, and please come again.    
+
+         RMJ Business Solutions         
+             32 Pogo grande             
+     Dagupan City, Pangasinan 2400      
+     VAT REG TIN: XXX-XXX-XXX-XXXXX     
+    ACCR NO.: XXXXXXXXXXXXXXXXXXXXXX    
+        Date Issued: XXXX-XX-XX         
+        Valid Until: XXXX-XX-XX         
+    PTU NO.: XXXXXXXXXXXXXXXXXXXXXX     
+        Date Issued: XXXX-XX-XX         
+        Valid Until: XXXX-XX-XX         
+
+      THIS INVOICE SHALL BE VALID       
+   FOR FIVE(5) YEARS FROM THE DATE OF   
+           THE PERMT TO USE.            
+       ----- END OF RECEIPT -----       
+
+----------------------------------------
+     ABC Telecom - Dagupan Central      
+      Business Name, Incorporated       
+              Perez Blvd.               
+        Dagupan City, Pangasinan        
+     VAT REG TIN: XXX-XXX-XXX-XXXXX     
+         MIN: XXXXXXXXXXXXXXXXX         
+         Serial No: XXXXXXXXXX          
+
+               X-READING                
+
+DATE    : 2020-08-10                    
+CASHIER : mac/CUISON, MICHAEL TORRES    
+TERMINAL: 01                            
+
+****************************************
+
+ Shift Start : 2020-08-10 09:07:05      
+ Shift End   : 2020-08-10 14:48:39      
+
+ Beginning SI: 0000000001               
+ Ending SI   : 0000000004               
+
+ Beginning Balance :               0.00
+ Ending Balance    :               0.00
+
+ GROSS SALES                   27119.74
+ Less : Regular Discnt             0.00
+        Returns                27119.74
+                          -------------
+ NET SALES                         0.00
+
+ VATable Sales                     0.00
+ VAT Amount                        0.00
+ VAT-Exempt Sales                  0.00
+ Zero-Rated Sales                  0.00
+
+ Collection Info:        
+  Petty Cash                    1000.00
+  Cash Pull-out                    0.00
+
+  Cashbox Amount                1000.00
+  Cheque                           0.00
+  Credit Card                      0.00
+  Gift Cheque                      0.00
+  Company Accounts                 0.00
+----------------------------------------
+  Total Sales for the day          0.00
+----------------------------------------
+****************************************
+/end-of-summary - 2020-08-10 14:48:43
+----------------------------------------
+     ABC Telecom - Dagupan Central      
+      Business Name, Incorporated       
+              Perez Blvd.               
+        Dagupan City, Pangasinan        
+     VAT REG TIN: XXX-XXX-XXX-XXXXX     
+         MIN: XXXXXXXXXXXXXXXXX         
+         Serial No: XXXXXXXXXX          
+
+               Z-READING                
+
+DATE    : 2020-08-10 to 2020-08-10      
+TERMINAL: 01                            
+
+****************************************
+
+ Beginning SI: 0000000001               
+ Ending SI   : 0000000004               
+
+ Beginning Balance :               0.00
+ Ending Balance    :               0.00
+
+ GROSS SALES                   27119.74
+ Less : Regular Discnt             0.00
+        Returns                27119.74
+                          -------------
+ NET SALES                         0.00
+
+ VATable Sales                     0.00
+ VAT Amount                        0.00
+ VAT-Exempt Sales                  0.00
+ Zero-Rated Sales                  0.00
+
+ Collection Info:        
+  Petty Cash                    1000.00
+  Cash Pull-out                    0.00
+
+  Cashbox Amount                1000.00
+  Cheque                           0.00
+  Credit Card                      0.00
+  Gift Cheque                      0.00
+  Company Accounts                 0.00
+----------------------------------------
+         Z COUNTER:                   1
+  ACC. GRAND TOTAL:                0.00
+----------------------------------------
+****************************************
+/end-of-summary - 2020-08-10 14:48:45
+----------------------------------------
+     ABC Telecom - Dagupan Central      
+      Business Name, Incorporated       
+              Perez Blvd.               
+        Dagupan City, Pangasinan        
+     VAT REG TIN: XXX-XXX-XXX-XXXXX     
+         MIN: XXXXXXXXXXXXXXXXX         
+         Serial No: XXXXXXXXXX          
+
+               X-READING                
+
+DATE    : 2020-08-10                    
+CASHIER : mac/CUISON, MICHAEL TORRES    
+TERMINAL: 01                            
+
+****************************************
+
+ Shift Start : 2020-08-10 09:07:05      
+ Shift End   : 2020-08-10 14:51:06      
+
+ Beginning SI: 0000000001               
+ Ending SI   : 0000000004               
+
+ Beginning Balance :               0.00
+ Ending Balance    :               0.00
+
+ GROSS SALES                   27119.74
+ Less : Regular Discnt             0.00
+        Returns                27119.74
+                          -------------
+ NET SALES                         0.00
+
+ VATable Sales                     0.00
+ VAT Amount                        0.00
+ VAT-Exempt Sales                  0.00
+ Zero-Rated Sales                  0.00
+
+ Collection Info:        
+  Petty Cash                    1000.00
+  Cash Pull-out                    0.00
+
+  Cashbox Amount                1000.00
+  Cheque                           0.00
+  Credit Card                      0.00
+  Gift Cheque                      0.00
+  Company Accounts                 0.00
+----------------------------------------
+  Total Sales for the day          0.00
+----------------------------------------
+****************************************
+/end-of-summary - 2020-08-10 14:51:06
+----------------------------------------
+     ABC Telecom - Dagupan Central      
+      Business Name, Incorporated       
+              Perez Blvd.               
+        Dagupan City, Pangasinan        
+     VAT REG TIN: XXX-XXX-XXX-XXXXX     
+         MIN: XXXXXXXXXXXXXXXXX         
+         Serial No: XXXXXXXXXX          
+
+               Z-READING                
+
+DATE    : 2020-08-10 to 2020-08-10      
+TERMINAL: 01                            
+
+****************************************
+
+ Beginning SI: 0000000001               
+ Ending SI   : 0000000004               
+
+ Beginning Balance :               0.00
+ Ending Balance    :               0.00
+
+ GROSS SALES                   27119.74
+ Less : Regular Discnt             0.00
+        Returns                27119.74
+                          -------------
+ NET SALES                         0.00
+
+ VATable Sales                     0.00
+ VAT Amount                        0.00
+ VAT-Exempt Sales                  0.00
+ Zero-Rated Sales                  0.00
+
+ Collection Info:        
+  Petty Cash                    1000.00
+  Cash Pull-out                    0.00
+
+  Cashbox Amount                1000.00
+  Cheque                           0.00
+  Credit Card                      0.00
+  Gift Cheque                      0.00
+  Company Accounts                 0.00
+----------------------------------------
+         Z COUNTER:                   1
+  ACC. GRAND TOTAL:                0.00
+----------------------------------------
+****************************************
+/end-of-summary - 2020-08-10 14:51:06
+----------------------------------------
