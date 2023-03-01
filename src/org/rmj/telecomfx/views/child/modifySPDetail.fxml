@@ -86,10 +86,10 @@
                                           <TextField fx:id="txtField01" disable="true" editable="false" focusTraversable="false" prefHeight="30.0" prefWidth="333.0" text="M00118000001" GridPane.columnIndex="1" GridPane.columnSpan="2" />
                                           <TextField fx:id="txtField02" disable="true" editable="false" focusTraversable="false" minHeight="30.0" text="000-00000-000-000" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.rowIndex="1" />
                                           <TextField fx:id="txtField03" disable="true" editable="false" focusTraversable="false" minHeight="30.0" text="Sample Item" GridPane.columnIndex="1" GridPane.columnSpan="4" GridPane.rowIndex="2" />
-                                          <TextField fx:id="txtField04" alignment="CENTER_RIGHT" disable="true" editable="false" focusTraversable="false" minHeight="30.0" text="100.00" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                                          <TextField fx:id="txtField04" alignment="CENTER_RIGHT" focusTraversable="false" minHeight="30.0" text="100.00" GridPane.columnIndex="1" GridPane.rowIndex="3" />
                                           <TextField fx:id="txtField06" alignment="CENTER_RIGHT" minHeight="30.0" text="10" GridPane.columnIndex="1" GridPane.rowIndex="5" />
-                                          <TextField fx:id="txtField07" alignment="CENTER_RIGHT" editable="false" minHeight="30.0" text="0.00" GridPane.columnIndex="1" GridPane.rowIndex="6" />
-                                          <TextField fx:id="txtField08" alignment="CENTER_RIGHT" editable="false" minHeight="30.0" text="0.00" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+                                          <TextField fx:id="txtField07" alignment="CENTER_RIGHT" minHeight="30.0" text="0.00" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+                                          <TextField fx:id="txtField08" alignment="CENTER_RIGHT" minHeight="30.0" text="0.00" GridPane.columnIndex="1" GridPane.rowIndex="7" />
                                           <Label prefHeight="17.0" prefWidth="176.0" text="Qty On Hnd" GridPane.rowIndex="4" />
                                           <TextField fx:id="txtField05" alignment="CENTER_RIGHT" disable="true" editable="false" focusTraversable="false" minHeight="30.0" text="0" GridPane.columnIndex="1" GridPane.rowIndex="4" />
                                        </children>

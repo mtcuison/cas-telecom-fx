@@ -71,7 +71,7 @@
                                           <CustomTextField fx:id="txtField07" prefHeight="27.0" prefWidth="417.0" promptText="Sales Person(Quick Search)" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.rowIndex="4" />
                                           <TextField fx:id="txtField06" prefHeight="17.0" prefWidth="378.0" promptText="Remarks" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.rowIndex="5" />
                                           <TextField fx:id="txtField11" alignment="CENTER_RIGHT" editable="false" prefHeight="27.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="6" />
-                                          <TextField fx:id="txtField12" alignment="CENTER_RIGHT" editable="false" prefHeight="27.0" prefWidth="208.0" GridPane.columnIndex="2" GridPane.rowIndex="7" />
+                                          <TextField fx:id="txtField12" alignment="CENTER_RIGHT" prefHeight="27.0" prefWidth="208.0" GridPane.columnIndex="2" GridPane.rowIndex="7" />
                                           <TextField fx:id="txtField13" alignment="CENTER_RIGHT" disable="true" prefHeight="27.0" prefWidth="202.0" GridPane.columnIndex="2" GridPane.rowIndex="8" />
                                           <Label fx:id="lblFreight" alignment="CENTER_RIGHT" prefHeight="17.0" prefWidth="216.0" text="Freight:" GridPane.columnIndex="1" GridPane.rowIndex="8">
                                              <GridPane.margin>
@@ -429,7 +429,7 @@
                                         <TableColumn fx:id="index02" editable="false" prefWidth="130.0" resizable="false" sortable="false" text="Item Code" />
                                         <TableColumn fx:id="index03" editable="false" prefWidth="130.0" resizable="false" sortable="false" text="Description" />
                                           <TableColumn fx:id="index04" editable="false" resizable="false" sortable="false" text="Unit Price" />
-                                          <TableColumn fx:id="index05" prefWidth="50.0" resizable="false" sortable="false" text="QOH" />
+                                          <TableColumn fx:id="index05" prefWidth="50.0" resizable="false" sortable="false" text="QTY" />
                                           <TableColumn fx:id="index06" editable="false" prefWidth="50.0" resizable="false" text="Order" />
                                           <TableColumn fx:id="index07" editable="false" prefWidth="60.0" resizable="false" sortable="false" text="Disc(%)" />
                                           <TableColumn fx:id="index08" prefWidth="60.0" resizable="false" sortable="false" text="Add Disc" />

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="acRoot" prefHeight="361.0" prefWidth="494.0" stylesheets="@../../styles/modifyOrderStyle.css" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <StackPane prefHeight="150.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <BorderPane prefHeight="303.0" prefWidth="473.0">
+               <top>
+                  <StackPane prefHeight="33.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+                     <children>
+                        <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: black;">
+                           <children>
+                              <Label layoutX="8.0" layoutY="8.0" text="Modify/Update Order" textFill="WHITE">
+                                 <font>
+                                    <Font name="System Bold" size="13.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </AnchorPane>
+                     </children>
+                  </StackPane>
+               </top>
+               <bottom>
+                  <AnchorPane prefHeight="38.0" prefWidth="492.0" BorderPane.alignment="CENTER">
+                     <children>
+                        <Button fx:id="btnOkay" layoutX="249.0" layoutY="1.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="114.0" text="Okay" />
+                        <Button fx:id="btnCancel" layoutX="370.0" layoutY="1.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="112.0" text="Cancel" />
+                        <Separator prefWidth="200.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="-5.0" />
+                     </children>
+                  </AnchorPane>
+               </bottom>
+               <center>
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+                     <children>
+                        <StackPane prefHeight="150.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                           <children>
+                              <AnchorPane prefHeight="200.0" prefWidth="200.0">
+                                 <children>
+                                    <GridPane prefHeight="259.0" prefWidth="506.0" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="10.0">
+                                       <columnConstraints>
+                                          <ColumnConstraints hgrow="SOMETIMES" maxWidth="117.0" minWidth="10.0" prefWidth="92.0" />
+                                          <ColumnConstraints hgrow="SOMETIMES" maxWidth="182.0" minWidth="111.0" prefWidth="111.0" />
+                                          <ColumnConstraints hgrow="SOMETIMES" maxWidth="100.0" minWidth="100.0" prefWidth="100.0" />
+                                          <ColumnConstraints hgrow="SOMETIMES" maxWidth="100.0" minWidth="100.0" prefWidth="100.0" />
+                                          <ColumnConstraints />
+                                       </columnConstraints>
+                                       <rowConstraints>
+                                          <RowConstraints minHeight="30.0" prefHeight="30.0" vgrow="ALWAYS" />
+                                          <RowConstraints minHeight="30.0" prefHeight="30.0" vgrow="ALWAYS" />
+                                          <RowConstraints minHeight="30.0" prefHeight="30.0" vgrow="ALWAYS" />
+                                          <RowConstraints minHeight="30.0" prefHeight="30.0" vgrow="ALWAYS" />
+                                          <RowConstraints minHeight="30.0" prefHeight="30.0" vgrow="ALWAYS" />
+                                          <RowConstraints minHeight="30.0" prefHeight="30.0" vgrow="ALWAYS" />
+                                          <RowConstraints minHeight="30.0" prefHeight="30.0" vgrow="ALWAYS" />
+                                          <RowConstraints minHeight="30.0" prefHeight="30.0" vgrow="ALWAYS" />
+                                       </rowConstraints>
+                                       <children>
+                                          <Label prefHeight="17.0" prefWidth="176.0" text="Stock ID">
+                                             <font>
+                                                <Font name="System Bold" size="12.0" />
+                                             </font>
+                                          </Label>
+                                          <Label prefHeight="17.0" prefWidth="176.0" text="Bar Code" GridPane.rowIndex="1">
+                                             <font>
+                                                <Font name="System Bold" size="12.0" />
+                                             </font>
+                                          </Label>
+                                          <Label prefHeight="17.0" prefWidth="176.0" text="Description" GridPane.rowIndex="2" />
+                                          <Label prefHeight="17.0" prefWidth="176.0" text="Unit Price" GridPane.rowIndex="3" />
+                                          <Label centerShape="false" prefHeight="17.0" prefWidth="217.0" text="Quantity" GridPane.rowIndex="5" />
+                                          <Label prefHeight="17.0" prefWidth="176.0" text="Disc. Rate(%)" GridPane.rowIndex="6" />
+                                          <Label prefHeight="17.0" prefWidth="176.0" text="Addt'l Disc." GridPane.rowIndex="7" />
+                                          <TextField fx:id="txtField01" disable="true" editable="false" focusTraversable="false" prefHeight="30.0" prefWidth="333.0" text="M00118000001" GridPane.columnIndex="1" GridPane.columnSpan="2" />
+                                          <TextField fx:id="txtField02" disable="true" editable="false" focusTraversable="false" minHeight="30.0" text="000-00000-000-000" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.rowIndex="1" />
+                                          <TextField fx:id="txtField03" disable="true" editable="false" focusTraversable="false" minHeight="30.0" text="Sample Item" GridPane.columnIndex="1" GridPane.columnSpan="4" GridPane.rowIndex="2" />
+                                          <TextField fx:id="txtField04" alignment="CENTER_RIGHT" disable="true" editable="false" focusTraversable="false" minHeight="30.0" text="100.00" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                                          <TextField fx:id="txtField06" alignment="CENTER_RIGHT" minHeight="30.0" text="10" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+                                          <TextField fx:id="txtField07" alignment="CENTER_RIGHT" editable="false" minHeight="30.0" text="0.00" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+                                          <TextField fx:id="txtField08" alignment="CENTER_RIGHT" editable="false" minHeight="30.0" text="0.00" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+                                          <Label prefHeight="17.0" prefWidth="176.0" text="Qty On Hnd" GridPane.rowIndex="4" />
+                                          <TextField fx:id="txtField05" alignment="CENTER_RIGHT" disable="true" editable="false" focusTraversable="false" minHeight="30.0" text="0" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+                                       </children>
+                                    </GridPane>
+                                 </children>
+                              </AnchorPane>
+                           </children>
+                        </StackPane>
+                     </children>
+                  </AnchorPane>
+               </center>
+            </BorderPane>
+         </children>
+      </StackPane>
+   </children>
+   <padding>
+      <Insets bottom="10.0" />
+   </padding>
+</AnchorPane>
