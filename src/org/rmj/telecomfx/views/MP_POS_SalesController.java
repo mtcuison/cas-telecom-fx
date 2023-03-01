@@ -226,7 +226,7 @@ public class MP_POS_SalesController implements Initializable {
         System.setProperty("pos.clt.date", SQLUtil.dateFormat(poGRider.getServerDate(), SQLUtil.FORMAT_SHORT_DATEX));
         
         lblField00.setText("TelecomFX POS System v1.0" + lsTranMode);
-        lblField01.setText("Accreditation No.: " + System.getProperty("pos.clt.accrd.no"));
+        lblField01.setText("Accreditation No.: " + System.getProperty("pos.footer.sAccrNmbr"));
         lblField02.setText("Machine No.: " + System.getProperty("pos.clt.crm.no"));
 
         clearFields();
@@ -315,8 +315,8 @@ public class MP_POS_SalesController implements Initializable {
                                                 (String) loInv.getSerial("sSerial01"), 
                                                 (String) loInv.getInventory("sDescript"), 
                                                 CommonUtils.NumberFormat(lnSelPrice, "#,##0.00"),
-                                                "-", //1
-                                                String.valueOf(lnQuantity),
+                                                String.valueOf(lnQuantity), //1
+                                                "-",
                                                 CommonUtils.NumberFormat(lnDiscount*100, "#,##0.00"),
                                                 CommonUtils.NumberFormat(lnAddDiscx, "#,##0.00"),
                                                 CommonUtils.NumberFormat(lnRowTotal, "#,##0.00"),
@@ -326,8 +326,8 @@ public class MP_POS_SalesController implements Initializable {
                                                 (String) loInv.getInventory("sBarCodex"), 
                                                 (String) loInv.getInventory("sDescript"), 
                                                 CommonUtils.NumberFormat(lnSelPrice, "#,##0.00"),
-                                                "-", //String.valueOf(loInv.getMaster("nQtyOnHnd"))
-                                                String.valueOf(lnQuantity),
+                                                String.valueOf(lnQuantity), //String.valueOf(loInv.getMaster("nQtyOnHnd"))
+                                                "-",
                                                 CommonUtils.NumberFormat(lnDiscount*100, "#,##0.00"),
                                                 CommonUtils.NumberFormat(lnAddDiscx, "#,##0.00"),
                                                 CommonUtils.NumberFormat(lnRowTotal, "#,##0.00"),
@@ -368,8 +368,8 @@ public class MP_POS_SalesController implements Initializable {
                                                 (String) loInv.getSerial("sSerial01"), 
                                                 (String) loInv.getInventory("sDescript"), 
                                                 CommonUtils.NumberFormat(lnSelPrice, "#,##0.00"),
-                                                "-", //1
-                                                String.valueOf(lnQuantity),
+                                                String.valueOf(lnQuantity), //1
+                                                "-",
                                                 CommonUtils.NumberFormat(lnDiscount*100, "#,##0.00"),
                                                 CommonUtils.NumberFormat(lnAddDiscx, "#,##0.00"),
                                                 CommonUtils.NumberFormat(lnRowTotal, "#,##0.00"),
@@ -379,8 +379,8 @@ public class MP_POS_SalesController implements Initializable {
                                                 (String) loInv.getInventory("sBarCodex"), 
                                                 (String) loInv.getInventory("sDescript"), 
                                                 CommonUtils.NumberFormat(lnSelPrice, "#,##0.00"),
-                                                "-", //String.valueOf(loInv.getMaster("nQtyOnHnd"))
-                                                String.valueOf(lnQuantity),
+                                                String.valueOf(lnQuantity), //String.valueOf(loInv.getMaster("nQtyOnHnd"))
+                                                "-",
                                                 CommonUtils.NumberFormat(lnDiscount*100, "#,##0.00"),
                                                 CommonUtils.NumberFormat(lnAddDiscx, "#,##0.00"),
                                                 CommonUtils.NumberFormat(lnRowTotal, "#,##0.00"),
@@ -425,13 +425,13 @@ public class MP_POS_SalesController implements Initializable {
         lblTransNox.setText((String) poTrans.getMaster("sTransNox"));        
         txtField03.setText(CommonUtils.xsDateMedium((Date) poTrans.getMaster("dTransact")));
         
-        txtField11.setText(CommonUtils.NumberFormat(Double.valueOf(poTrans.getMaster("nDiscount").toString())*100, "###0.00"));
-        txtField12.setText(CommonUtils.NumberFormat(Double.valueOf(poTrans.getMaster("nAddDiscx").toString()), "###0.00"));
+        txtField11.setText(CommonUtils.NumberFormat(Double.valueOf(poTrans.getMaster("nDiscount").toString())*100, "#,##0.00"));
+        txtField12.setText(CommonUtils.NumberFormat(Double.valueOf(poTrans.getMaster("nAddDiscx").toString()), "#,##0.00"));
         txtField07.setText((String) poTrans.getMaster("sSalesman")); //salesman        
         txtField06.setText((String) poTrans.getMaster("sRemarksx"));
         
         if (Double.valueOf(poTrans.getMaster("nFreightx").toString()) > 0.00){
-            txtField13.setText(CommonUtils.NumberFormat(Double.valueOf(poTrans.getMaster("nFreightx").toString()), "###0.00"));
+            txtField13.setText(CommonUtils.NumberFormat(Double.valueOf(poTrans.getMaster("nFreightx").toString()), "#,##0.00"));
             txtField13.setVisible(true);
             lblFreight.setVisible(true);
         }
@@ -549,7 +549,7 @@ public class MP_POS_SalesController implements Initializable {
                         ShowMessageFX.Warning(poTrans.getErrMsg(), pxeModuleName, poTrans.getWarnMsg());
                     break;
                 case 4: //client
-                    if (lsValue.equals("")) return;
+                    if (lsValue.equals("")) return; 
                     loJSON = poTrans.SearchMaster(lnIndex, lsValue);
                     if (loJSON != null){
                         poTrans.setMaster(lnIndex, (String) loJSON.get("sClientID"));
@@ -574,10 +574,15 @@ public class MP_POS_SalesController implements Initializable {
                     break;
                 case 11:
                 case 12:
-                    if (poTrans.searchDiscount(lnIndex == 11)){
-                        txtField11.setText(CommonUtils.NumberFormat(Double.valueOf(poTrans.getMaster("nDiscount").toString()), "0.00"));
-                        txtField12.setText(CommonUtils.NumberFormat(Double.valueOf(poTrans.getMaster("nAddDiscx").toString()), "0.00"));
-                        loadDetail2Grid();
+                    if (event.getCode() == F3) {
+                        if (poTrans.searchDiscount(lnIndex == 11)){
+                            txtField11.setText(CommonUtils.NumberFormat(Double.valueOf(poTrans.getMaster("nDiscount").toString()), "0.00"));
+                            txtField12.setText(CommonUtils.NumberFormat(Double.valueOf(poTrans.getMaster("nAddDiscx").toString()), "0.00"));
+                            loadDetail2Grid();
+                        }
+                    }else if(event.getCode() == ENTER) {
+//                        txtField11.setText(CommonUtils.NumberFormat(Double.valueOf(poTrans.getMaster("nDiscount").toString()), "0.00"));
+//                        txtField12.setText(CommonUtils.NumberFormat(Double.valueOf(poTrans.getMaster("nAddDiscx").toString()), "0.00"));
                     }
                     break;
             }
@@ -646,17 +651,17 @@ public class MP_POS_SalesController implements Initializable {
                         /*get the value from the class*/
                         txtField.setText(CommonUtils.xsDateLong((Date)poTrans.getMaster("dTransact")));
                         return;
-                    /*case 11:
-                        try {
-                            lnValue = Double.parseDouble(lsValue);
-                        } catch (Exception e) {
-                            lnValue = 0.0;
-                        }
-                        
-                        poTrans.setMaster("nDiscount", (lnValue > 100 ? 1 : lnValue/100));
-                        txtField.setText(CommonUtils.NumberFormat(Double.valueOf(poTrans.getMaster("nDiscount").toString())*100, "0.00"));
-                        loadDetail2Grid();
-                        break;
+//                    case 11:
+//                        try {
+//                            lnValue = Double.parseDouble(lsValue);
+//                        } catch (Exception e) {
+//                            lnValue = 0.0;
+//                        }
+//                        
+//                        poTrans.setMaster("nDiscount", (lnValue > 100 ? 1 : lnValue/100));
+//                        txtField.setText(CommonUtils.NumberFormat(Double.valueOf(poTrans.getMaster("nDiscount").toString())*100, "0.00"));
+//                        loadDetail2Grid();
+//                        break;
                         
                     case 12:
                         try {
@@ -667,8 +672,7 @@ public class MP_POS_SalesController implements Initializable {
                         poTrans.setMaster("nAddDiscx", lnValue);
                         txtField.setText(CommonUtils.NumberFormat(Double.valueOf(poTrans.getMaster("nAddDiscx").toString()), "0.00"));
                         loadDetail2Grid();
-                        break;
-                    */    
+                        break;   
                     case 6:
                         poTrans.setMaster("sRemarksx", lsValue);
                         txtField.setText((String) poTrans.getMaster("sRemarksx"));
@@ -959,10 +963,12 @@ public class MP_POS_SalesController implements Initializable {
         order05.setStyle("-fx-alignment: CENTER;");
         
         order01.prefWidthProperty().bind(tblOrders.widthProperty().multiply(0.05));
-        order02.prefWidthProperty().bind(tblOrders.widthProperty().multiply(0.19));
-        order03.prefWidthProperty().bind(tblOrders.widthProperty().multiply(0.40));
-        order04.prefWidthProperty().bind(tblOrders.widthProperty().multiply(0.15));
-        order05.prefWidthProperty().bind(tblOrders.widthProperty().multiply(0.20));
+//        order02.prefWidthProperty().bind(tblOrders.widthProperty().multiply(0.19));
+//        order03.prefWidthProperty().bind(tblOrders.widthProperty().multiply(0.40));
+        order02.prefWidthProperty().bind(tblOrders.widthProperty().multiply(0.10));
+        order03.prefWidthProperty().bind(tblOrders.widthProperty().multiply(0.20));
+        order04.prefWidthProperty().bind(tblOrders.widthProperty().multiply(0.10));
+        order05.prefWidthProperty().bind(tblOrders.widthProperty().multiply(0.10));
         
         order01.setCellValueFactory(new PropertyValueFactory<org.rmj.telecomfx.views.TableModel,String>("index01"));
         order02.setCellValueFactory(new PropertyValueFactory<org.rmj.telecomfx.views.TableModel,String>("index02"));

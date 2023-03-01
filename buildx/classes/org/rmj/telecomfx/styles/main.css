@@ -1,0 +1,115 @@
+.button{
+    -fx-border-width: 0px 0px 0px 5px;
+    -fx-border-radius: 0px;
+    -fx-background-radius: 0px;
+    -fx-text-fill: #ffffff;
+    -fx-background-color: #B3B6B7;
+    -fx-font-weight:700;
+    -fx-font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+}
+#btnClose{
+     -fx-background-color: transparent;
+}
+
+.button:focused{
+    -fx-border-width: 0px 0px 0px 0px;
+}
+.button:pressed{
+    -fx-text-fill: white;
+}
+.button:hover{
+    -fx-background-color: #f37024;
+}
+.glyph-icon{
+    -fx-fill: #ffffff;
+}
+#iconUser{
+    -fx-fill: #f37024;
+}
+#iconUser:hover{
+    -fx-fill: #ffffff;
+}
+.text-field{
+   -fx-border-color: #000000;
+   -fx-border-width: 0.3px;
+}
+.text-area{
+   -fx-border-color: #000000;
+   -fx-border-width: 0.5px;
+}
+.check-box .box {
+
+-fx-background-color: white;
+-fx-border-color:black;
+-fx-border-radius:1px; 
+
+}
+.check-box:selected .mark {
+-fx-background-color: white;
+}
+
+.check-box:selected .box {
+-fx-background-color: #28a3f4;
+}
+.combo-box-base{
+ -fx-border-color: black;
+ -fx-border-width: 0.4 0.4 0.4 0.4;
+}
+
+ #btnIcon{
+    -fx-border-width: 0px 0px 0px 5px;
+    -fx-border-radius: 0px;
+    -fx-background-radius: 0px;
+    -fx-background-color: transparent;
+    -fx-fill: white;
+}
+ #btnIcon:hover .glyph-icon{
+    -fx-fill: #646464;
+}
+
+#btnSave, #btnBrowse, #btnNew, 
+#btnSearch, #btnUpdate, #btnDelItem, 
+#btnReset, #btnPay, #btnVoid, 
+#btnClearFilter
+{
+    -fx-background-color: green;
+}
+
+#btnSave:hover, #btnBrowse:hover, #btnNew:hover, 
+#btnSearch:hover, #btnUpdate:hover, #btnDelItem:hover, 
+#btnReset:hover, #btnPay:hover, #btnVoid:hover, 
+#btnClearFilter:hover
+{
+    -fx-background-color: #f37024;
+}
+
+#btnSales, #btnSalesReturn, #btnJobOrder, #btnChargeInvoice{
+    -fx-background-color: #008fb3;
+}
+
+#btnSales:hover, #btnSalesReturn:hover, #btnJobOrder:hover, #btnChargeInvoice:hover{
+    -fx-background-color: #f37024;
+}
+
+#menuBar{
+    -fx-background-color: transparent;
+}
+#menuBar .label{
+    -fx-text-fill: #f37024;
+}
+ #menuBar{
+    -fx-selection-bar:black;
+}
+#btnHome{
+    -fx-border-width: 0px 0px 0px 5px;
+    -fx-border-radius: 0px;
+    -fx-background-radius: 0px;
+    -fx-background-color: transparent;
+}
+#btnHome:hover .glyph-icon{
+    -fx-fill: #f37024;
+}
+
+.text-field:disabled, .text-area:disabled, .label{
+  -fx-opacity: 1;
+}
