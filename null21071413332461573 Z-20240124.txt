@@ -1,0 +1,48 @@
+       RealMe - Robinson Calasiao       
+   Guanzon Merchandising Corporation    
+   Lv2 Robinson Place Calasiao Pang.    
+          Calasiao, Pangasinan          
+      VAT REG TIN: 000-251-793-091      
+         MIN: 21071413332461573         
+          Serial No: Z0OYXJUFS          
+
+               Z-READING                
+
+DATE    : 2024-01-24 to 2024-01-24      
+TERMINAL: 01                            
+
+****************************************
+
+ Beginning SI:                          
+ Ending SI   :                          
+
+ Beginning Balance :        12015298.84
+ Ending Balance    :        12015298.84
+
+ GROSS SALES                       0.00
+ Less : Regular Discnt             0.00
+        Returns                    0.00
+                          -------------
+ NET SALES                         0.00
+
+ VATable Sales                     0.00
+ VAT Amount                        0.00
+ VAT-Exempt Sales                  0.00
+ Zero-Rated Sales                  0.00
+
+ Collection Info:        
+  Petty Cash                       0.00
+  Cash Pull-out                    0.00
+
+  Cashbox Amount                   0.00
+  Cheque                           0.00
+  Credit Card                      0.00
+  Gift Cheque                      0.00
+  Company Accounts                 0.00
+----------------------------------------
+         Z COUNTER:                 819
+  ACC. GRAND TOTAL:         12015298.84
+----------------------------------------
+****************************************
+/end-of-summary - 2024-02-08 17:30:41
+----------------------------------------

@@ -8,6 +8,7 @@ import java.net.URL;
 import java.util.ResourceBundle;
 import javafx.beans.property.ReadOnlyBooleanPropertyBase;
 import javafx.beans.value.ChangeListener;
+import javafx.beans.value.ObservableValue;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
@@ -23,7 +24,9 @@ import org.rmj.appdriver.GRider;
 import org.rmj.appdriver.MiscUtil;
 import org.rmj.appdriver.SQLUtil;
 import org.rmj.appdriver.agentfx.CommonUtils;
+import org.rmj.appdriver.agentfx.ShowMessageFX;
 import org.rmj.appdriver.agentfx.ui.showFXDialog;
+import org.rmj.appdriver.constants.UserRight;
 
 
 public class ModifySPDetailController implements Initializable {
@@ -50,6 +53,8 @@ public class ModifySPDetailController implements Initializable {
         txtField06.setText(String.valueOf(nQuantity));
         txtField07.setText(CommonUtils.NumberFormat(nDiscRate*100, "0.00"));
         txtField08.setText(CommonUtils.NumberFormat(nAddDiscx, "#,##0.00"));
+        
+        p_nOrigUnitPrce=nUnitPrce;
         
         txtField06.setDisable(cSerialze.equals("1"));
         btnOkay.setOnAction(this::cmdButton_Click);
@@ -165,64 +170,83 @@ public class ModifySPDetailController implements Initializable {
         stage.close();
     }
     
-    final ChangeListener<? super Boolean> masterFocus = (o,ov,nv)->{
-        if(!nv){
-            TextField txtField = (TextField)((ReadOnlyBooleanPropertyBase)o).getBean();
-            int lnIndex = Integer.parseInt(txtField.getId().substring(8, 10));
-            String lsValue = txtField.getText();
-            double lnValue = 0;
-            int lnVal = 0;
-            switch (lnIndex){
-                case 4: //unit price
-                    try {
-                        lnValue = Double.parseDouble(lsValue);
-                        nUnitPrce = lnValue;
-                    } catch (NumberFormatException e) {
-                        nUnitPrce = 0.0;
-                    }
-                    
-                    txtField.setText(String.valueOf(CommonUtils.NumberFormat(nUnitPrce, "#,##0.00")));
-                    break;
-                case 5: //on hand
-                    try {
-                        lnVal = Integer.parseInt(lsValue);
-                        nQtyOnHnd = lnVal;
-                    } catch (NumberFormatException e) {
-                        nQtyOnHnd = 1;
-                    }
-                    break;
-                case 6: //order
-                    try {
-                        lnVal = Integer.parseInt(lsValue);
-                        nQuantity = lnVal; // > nQtyOnHnd ? nQtyOnHnd : lnVal; 
-                    } catch (NumberFormatException e) {
-                        nQuantity = 1;
-                    }
-                    txtField.setText(String.valueOf(nQuantity));
-                    break;
-                /*
-                case 7: //disc rate
-                    try {
+    final ChangeListener<? super Boolean> masterFocus = new ChangeListener<Boolean>() {
+        @Override
+        public void changed(ObservableValue<? extends Boolean> o, Boolean ov, Boolean nv) {
+            if(!nv){
+                TextField txtField = (TextField)((ReadOnlyBooleanPropertyBase)o).getBean();
+                int lnIndex = Integer.parseInt(txtField.getId().substring(8, 10));
+                String lsValue = txtField.getText();
+                double lnValue = 0;
+                int lnVal = 0;
+                switch (lnIndex){
+                    case 4: //unit price
+                        try {
+                            lnValue = Double.parseDouble(lsValue);
+                            if(lnValue!=p_nOrigUnitPrce){
+                                if (oApp.getUserLevel() <= UserRight.ENCODER){
+                                    JSONObject loJSON = showFXDialog.getApproval(oApp);
+
+                                    if (loJSON == null){
+                                        ShowMessageFX.Warning("Approval failed.", pxeModuleName, "Unable to post transaction");
+                                        lnValue=p_nOrigUnitPrce;
+                                    }
+
+                                    if ((int) loJSON.get("nUserLevl") <= UserRight.ENCODER){
+                                        ShowMessageFX.Warning("User account has no right to approve.", pxeModuleName, "Unable to post transaction");
+                                        lnValue=p_nOrigUnitPrce;
+                                    }
+                                }
+                            }
+                            
+                            nUnitPrce = lnValue;
+                        } catch (NumberFormatException e) {
+                            nUnitPrce = 0.0;
+                        }
+                        
+                        txtField.setText(String.valueOf(CommonUtils.NumberFormat(nUnitPrce, "#,##0.00")));
+                        break;
+                    case 5: //on hand
+                        try {
+                            lnVal = Integer.parseInt(lsValue);
+                            nQtyOnHnd = lnVal;
+                        } catch (NumberFormatException e) {
+                            nQtyOnHnd = 1;
+                        }
+                        break;
+                    case 6: //order
+                        try {
+                            lnVal = Integer.parseInt(lsValue);
+                            nQuantity = lnVal; // > nQtyOnHnd ? nQtyOnHnd : lnVal;
+                        } catch (NumberFormatException e) {
+                            nQuantity = 1;
+                        }
+                        txtField.setText(String.valueOf(nQuantity));
+                        break;
+                        /*
+                        case 7: //disc rate
+                        try {
                         lnValue = Double.parseDouble(lsValue);
                         if (lnValue > 100) lnValue = 100;
                         
                         nDiscRate = lnValue/100;
-                    } catch (NumberFormatException e) {
+                        } catch (NumberFormatException e) {
                         nDiscRate = 0.0;
-                    }
-                    txtField.setText(CommonUtils.NumberFormat(lnValue, "#,##0.00"));
-                    break;
-                case 8: //add disc
-                    try {
+                        }
+                        txtField.setText(CommonUtils.NumberFormat(lnValue, "#,##0.00"));
+                        break;
+                        case 8: //add disc
+                        try {
                         lnValue = Double.parseDouble(lsValue);
-                        nAddDiscx = lnValue; 
-                    } catch (NumberFormatException e) {
+                        nAddDiscx = lnValue;
+                        } catch (NumberFormatException e) {
                         nAddDiscx = 0.0;
-                    }
-                    txtField.setText(CommonUtils.NumberFormat(nAddDiscx, "#,##0.00"));
-                    break;
-                */
-                default:
+                        }
+                        txtField.setText(CommonUtils.NumberFormat(nAddDiscx, "#,##0.00"));
+                        break;
+                        */
+                    default:
+                }
             }
         }
     };
@@ -260,6 +284,7 @@ public class ModifySPDetailController implements Initializable {
     public double getDiscRate(){return nDiscRate;}
     public double getAddDiscx(){return nAddDiscx;}
     public String IsSerialized(){return cSerialze;}
+    public double p_nOrigUnitPrce=0.0;
     
     public boolean isCancelled(){return bCancelled;}
     

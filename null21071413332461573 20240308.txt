@@ -1,0 +1,295 @@
+       RealMe - Robinson Calasiao       
+   Guanzon Merchandising Corporation    
+   Lv2 Robinson Place Calasiao Pang.    
+          Calasiao, Pangasinan          
+      VAT REG TIN: 000-251-793-091      
+         MIN: 21071413332461573         
+          Serial No: Z0OYXJUFS          
+
+
+             SALES INVOICE              
+
+ Cashier: amnr/ROMERO, ANNAMARIE NAJERA 
+ Terminal No.: 01                       
+ SI No.: 0000001927                     
+ Transaction No.: 0000000001            
+ Date/Time: 2024-03-08 15:22:06            
+
+
+****************************************
+QTY DESCRIPTION      UPRICE    AMOUNT
+  1 6941399066434  11990.00  11990.00V
+    OPENLINE W/ WARRANTY
+     Realme/Prism Blue                  
+     SN: 862692052044956                
+     SN: null                           
+  1 TECHLIFE12WCHARGER   399.00    399.00V
+    12W CHARGER W/MICRO/TYPE C CABLE
+     White                              
+     SN: RTI02D00960                    
+     SN: null                           
+----------------------------------------
+ No. of Items: 2
+
+ Gross Sales                   12389.00
+ Less: Discount                  990.00
+ Less: REGULAR DISC.                    
+        (P990.0)                 990.00
+                          -------------
+ VATable Sales                 11399.00
+                          -------------
+ Net VATable Sales             10177.68
+ Add: VAT                       1221.32
+                          -------------
+ TOTAL AMOUNT DUE :            11399.00
+
+ Cash                          12000.00
+
+ CHANGE           :              601.00
+----------------------------------------
+
+ VAT Exempt Sales                  0.00
+ Zero-Rated Sales                  0.00
+ VATable Sales                 10177.68
+ VAT Amount                     1221.32
+
+ Cust Name: Cuison, Michael  Torres     
+ Address:                               
+ TIN:                                   
+ Bus. Style:                            
+****************************************
+
+   This serves as your SALES INVOICE.   
+   Thank you, and please come again.    
+
+         RMJ Business Solutions         
+             32 Pogo grande             
+     Dagupan City, Pangasinan 2400      
+     VAT REG TIN: 942-188-655-0000      
+    ACCR NO.: 0049421886552021011380    
+        Date Issued: 2021-01-14         
+        Valid Until: 2026-01-14         
+  PTU NO.: FP072021-004-0295580-00091   
+       ----- END OF RECEIPT -----       
+       RealMe - Robinson Calasiao       
+   Guanzon Merchandising Corporation    
+   Lv2 Robinson Place Calasiao Pang.    
+          Calasiao, Pangasinan          
+      VAT REG TIN: 000-251-793-091      
+         MIN: 21071413332461573         
+          Serial No: Z0OYXJUFS          
+
+
+             SALES INVOICE              
+
+ Cashier: amnr/ROMERO, ANNAMARIE NAJERA 
+ Terminal No.: 01                       
+ SI No.: 0000001928                     
+ Transaction No.: 0000000002            
+ Date/Time: 2024-03-08 15:31:32            
+
+
+****************************************
+QTY DESCRIPTION      UPRICE    AMOUNT
+  1 6941399086210   3499.00   3499.00V
+    WATCH 3
+     Realme/Grey                        
+     SN: 230329522108005675             
+     SN: null                           
+----------------------------------------
+ No. of Items: 1
+
+ Gross Sales                    3499.00
+                          -------------
+ VATable Sales                  3499.00
+                          -------------
+ Net VATable Sales              3124.11
+ Add: VAT                        374.89
+                          -------------
+ TOTAL AMOUNT DUE :             3499.00
+
+ Credit Card                    3499.00
+
+ CHANGE           :                0.00
+----------------------------------------
+
+ VAT Exempt Sales                  0.00
+ Zero-Rated Sales                  0.00
+ VATable Sales                  3124.11
+ VAT Amount                      374.89
+
+ Cust Name: Cuison, Michael  Torres     
+ Address:                               
+ TIN:                                   
+ Bus. Style:                            
+----------------------------------------
+
+ Credit Card(s): 
+ 00XX024                        3499.00
+ Card No. : ************1111
+****************************************
+
+   This serves as your SALES INVOICE.   
+   Thank you, and please come again.    
+
+         RMJ Business Solutions         
+             32 Pogo grande             
+     Dagupan City, Pangasinan 2400      
+     VAT REG TIN: 942-188-655-0000      
+    ACCR NO.: 0049421886552021011380    
+        Date Issued: 2021-01-14         
+        Valid Until: 2026-01-14         
+  PTU NO.: FP072021-004-0295580-00091   
+       ----- END OF RECEIPT -----       
+
+----------------------------------------
+       RealMe - Robinson Calasiao       
+   Guanzon Merchandising Corporation    
+   Lv2 Robinson Place Calasiao Pang.    
+          Calasiao, Pangasinan          
+      VAT REG TIN: 000-251-793-091      
+         MIN: 21071413332461573         
+          Serial No: Z0OYXJUFS          
+
+               X-READING                
+
+DATE    : 2024-03-08                    
+CASHIER : amnr/ROMERO, ANNAMARIE NAJERA 
+TERMINAL: 01                            
+
+****************************************
+
+ Shift Start : 2024-03-08 15:13:31      
+ Shift End   : 2024-03-08 15:34:45      
+
+ Beginning SI: 0000001927               
+ Ending SI   : 0000001928               
+
+ Beginning Balance :        12015298.84
+ Ending Balance    :        12030196.84
+
+ GROSS SALES                   15888.00
+ Less : Regular Discnt           990.00
+        Returns                    0.00
+                          -------------
+ NET SALES                     14898.00
+
+ VATable Sales                 13301.79
+ VAT Amount                     1596.21
+ VAT-Exempt Sales                  0.00
+ Zero-Rated Sales                  0.00
+
+ Collection Info:        
+  Petty Cash                    1000.00
+  Cash Pull-out                    0.00
+
+  Cashbox Amount               12399.00
+  Cheque                           0.00
+  Credit Card                   3499.00
+  Gift Cheque                      0.00
+  Company Accounts                 0.00
+----------------------------------------
+  Total Sales for the day      14898.00
+----------------------------------------
+****************************************
+/end-of-summary - 2024-03-08 15:34:45
+----------------------------------------
+       RealMe - Robinson Calasiao       
+   Guanzon Merchandising Corporation    
+   Lv2 Robinson Place Calasiao Pang.    
+          Calasiao, Pangasinan          
+      VAT REG TIN: 000-251-793-091      
+         MIN: 21071413332461573         
+          Serial No: Z0OYXJUFS          
+
+               X-READING                
+
+DATE    : 2024-03-08                    
+CASHIER : amnr/ROMERO, ANNAMARIE NAJERA 
+TERMINAL: 01                            
+
+****************************************
+
+ Shift Start : 2024-03-08 15:13:31      
+ Shift End   : 2024-03-08 15:39:38      
+
+ Beginning SI: 0000001927               
+ Ending SI   : 0000001928               
+
+ Beginning Balance :        12015298.84
+ Ending Balance    :        12030196.84
+
+ GROSS SALES                   15888.00
+ Less : Regular Discnt           990.00
+        Returns                    0.00
+                          -------------
+ NET SALES                     14898.00
+
+ VATable Sales                 13301.79
+ VAT Amount                     1596.21
+ VAT-Exempt Sales                  0.00
+ Zero-Rated Sales                  0.00
+
+ Collection Info:        
+  Petty Cash                    1000.00
+  Cash Pull-out                    0.00
+
+  Cashbox Amount               12399.00
+  Cheque                           0.00
+  Credit Card                   3499.00
+  Gift Cheque                      0.00
+  Company Accounts                 0.00
+----------------------------------------
+  Total Sales for the day      14898.00
+----------------------------------------
+****************************************
+/end-of-summary - 2024-03-08 15:39:38
+----------------------------------------
+       RealMe - Robinson Calasiao       
+   Guanzon Merchandising Corporation    
+   Lv2 Robinson Place Calasiao Pang.    
+          Calasiao, Pangasinan          
+      VAT REG TIN: 000-251-793-091      
+         MIN: 21071413332461573         
+          Serial No: Z0OYXJUFS          
+
+               Z-READING                
+
+DATE    : 2024-03-08 to 2024-03-08      
+TERMINAL: 01                            
+
+****************************************
+
+ Beginning SI: 0000001927               
+ Ending SI   : 0000001928               
+
+ Beginning Balance :        12015298.84
+ Ending Balance    :        12030196.84
+
+ GROSS SALES                   15888.00
+ Less : Regular Discnt           990.00
+        Returns                    0.00
+                          -------------
+ NET SALES                     14898.00
+
+ VATable Sales                 13301.79
+ VAT Amount                     1596.21
+ VAT-Exempt Sales                  0.00
+ Zero-Rated Sales                  0.00
+
+ Collection Info:        
+  Petty Cash                    1000.00
+  Cash Pull-out                    0.00
+
+  Cashbox Amount               12399.00
+  Cheque                           0.00
+  Credit Card                   3499.00
+  Gift Cheque                      0.00
+  Company Accounts                 0.00
+----------------------------------------
+         Z COUNTER:                 822
+  ACC. GRAND TOTAL:         12030196.84
+----------------------------------------
+****************************************
+/end-of-summary - 2024-03-08 15:39:38
+----------------------------------------

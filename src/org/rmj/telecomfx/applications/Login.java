@@ -41,6 +41,16 @@ public class Login {
             lsUserIDxx = System.getProperty("user.id");
         }
         
+        String path;
+        if(System.getProperty("os.name").toLowerCase().contains("win")){
+            path = "C:/GGC_Java_Systems";
+        }
+        else{
+            path = "/srv/GGC_Java_Systems";
+        }
+        System.setProperty("sys.default.path.config", path);
+        
+        System.out.println(lsProdctID);
         GRider poGRider = new GRider(lsProdctID);
         GProperty loProp = new GProperty("GhostRiderXP");
 
@@ -67,7 +77,7 @@ public class Login {
     private static boolean loadProperties(){
         try {
             Properties po_props = new Properties();
-            po_props.load(new FileInputStream("D:\\GGC_Java_Systems\\config\\rmj.properties"));
+            po_props.load(new FileInputStream("C:\\GGC_Java_Systems\\config\\rmj.properties"));
             
             System.setProperty("app.debug.mode", po_props.getProperty("app.debug.mode"));
             System.setProperty("app.product.id", po_props.getProperty("app.product.id"));
@@ -90,6 +100,18 @@ public class Login {
             System.setProperty("pos.backend.sys.journal", po_props.getProperty("pos.backend.sys.journal"));
             System.setProperty("pos.backend.sys.user", po_props.getProperty("pos.backend.sys.user"));
             System.setProperty("pos.backend.sys.pass", po_props.getProperty("pos.backend.sys.pass"));
+            
+            //Footer
+            System.setProperty("pos.footer.sDevelopr", po_props.getProperty("pos.footer.sDevelopr"));
+            System.setProperty("pos.footer.sAddress1", po_props.getProperty("pos.footer.sAddress1"));
+            System.setProperty("pos.footer.sAddress2", po_props.getProperty("pos.footer.sAddress2"));
+            System.setProperty("pos.footer.sVATREGTN", po_props.getProperty("pos.footer.sVATREGTN"));
+            System.setProperty("pos.footer.sAccrNmbr", po_props.getProperty("pos.footer.sAccrNmbr"));
+            System.setProperty("pos.footer.sAccrIssd", po_props.getProperty("pos.footer.sAccrIssd"));
+            System.setProperty("pos.footer.sAccdExpr", po_props.getProperty("pos.footer.sAccdExpr"));
+            System.setProperty("pos.footer.sPTUNmber", po_props.getProperty("pos.footer.sPTUNmber"));
+//            System.setProperty("pos.footer.sPTUIssdx", po_props.getProperty("pos.footer.sPTUIssdx"));
+//            System.setProperty("pos.footer.sPTUExpry", po_props.getProperty("pos.footer.sPTUExpry"));
             
             return true;
         } catch (FileNotFoundException ex) {
